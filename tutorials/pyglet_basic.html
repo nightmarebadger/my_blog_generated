@@ -1,4 +1,109 @@
 
+
+<!doctype html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NMB's Development Blog</title>
+  <meta name="description" content="One of the many ...">
+  <meta name="author" content="Natan Žabkar">
+  <meta charset="UTF-8">
+  <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/blog/feed" />
+  <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="/blog/feed/atom" />
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="/css/pygments_murphy.css" type="text/css" />
+
+  <script src="/js/libs/modernizr-1.7.min.js"></script>
+
+  <link rel="stylesheet" href="/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/css/bootstrap-theme.min.css" />
+  <link rel="stylesheet" href="/css/custom.css" />
+  <link rel="stylesheet" href="/css/custom-notebook.css" />
+
+  
+
+</head>
+  <body>
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">NMB's Development Blog</a>
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+    <div class="navbar-collapse collapse">
+      
+      <ul class="nav navbar-nav">
+        <li class="">
+          <a href="/">Home</a>
+        </li>
+        <li class="">
+          <a href="/blog">Blog</a>
+        </li>
+        <li class="">
+          <a href="/blog/category">Categories</a>
+        </li>
+        <li class="active">
+          <a href="/tutorials">Tutorials</a>
+        </li>
+        <li class="">
+          <a href="/blog/archive">Archives</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-9">
+          
+
+
+
+<article class="tutorial_box">
+
+<div id="toc" class="well well-sm">
+  <p class="toctitle centered">
+    Contents
+    <span>
+      [<a data-toggle="collapse" data-parent="#toc" href="#toc-content">show/hide</a>]
+    </span>
+  </p>
+  <ol id="toc-content" class="collapse">
+  </ol>
+</div>
+
+<div id="source" class="well well-sm">
+  <p class="toctitle centered">
+    Source
+    <span>
+      [<a data-toggle="collapse" data-parent="#source" href="#source-content">show/hide</a>]
+    </span>
+  </p>
+  <div id="source-content" class="collapse">
+    <p class="centered source-links">
+      <a href="base/pyglet_basic.ipynb" target="_blank">IPython notebook</a> | <a href="https://github.com/nightmarebadger/pyglet-and-cocos2d-tutorials" target="_blank">Source repository</a> | <a href="https://github.com/nightmarebadger/pyglet-and-cocos2d-tutorials/archive/master.zip" target="_blank">Source download</a>
+    </p>
+  </div>
+</div>
+
+
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="A-very-basic-Pyglet-tutorial">A very basic Pyglet tutorial<a class="anchor-link" href="#A-very-basic-Pyglet-tutorial">&#182;</a></h1>
 </div>
@@ -559,7 +664,7 @@ In&nbsp;[]:
 
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>First, we clear the window - if we do not do this, the images from the previous frame would still stay there. This would mean our player wouldn't be <em>moving</em> as such, but rather <em>copying</em> all over the place. Comment out the line and test it out, it's fun (you can also try it with different values in <code>pyglet.clock.schedule_interval</code>) :).</p>
+<p>First, we clear the window - if we do not do this, the images from the previous frame would still stay there. This would mean our player wouldn't be <em>moving</em> as such, but rather <em>copying</em> all over the place. Comment out the line and test it out, it's fun (you can also try it with different values in <code>pyglet.clock.schedule_interval</code>).</p>
 <p>Later on we draw first the enemies, then the boss, then the player and last but not least the FPS. The order here is important, as sprites are drawn one over another - so the later the <code>draw()</code> method is called, the <em>higher</em> up or <em>closer</em> to the screen our sprite will be.</p>
 <p>This way, the player is drawn across the boss and the enemies with the FPS always on top of everything else.</p>
 </div>
@@ -585,3 +690,168 @@ In&nbsp;[]:
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>All that remains is to actually start up the application, which is done with the <code>pyglet.app.run()</code> command. Before that we schedule an interval call to our update function and set it to <span class="math">\(\frac{1}{120}\)</span>, meaning we call the command 120 times per second. Since vertical sync is automatically enabled, we will not see more then 60 FPS, but the update function will still be called 120 times per second.</p>
 </div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="The-end">The end<a class="anchor-link" href="#The-end">&#182;</a></h1>
+</div>
+
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>With this, we have come to the end of my very first tutorial. The next few tutorials will be linked to this one, and will show how to use Cocos2d (a library built over Pyglet) to turn this into a real game with menus, collision detection, background music etc.</p>
+<p>Feel free to leave your comments and opinions below.</p>
+</div>
+
+<p class="well well-sm post-author">
+  Written by: Natan Žabkar
+</p>
+<br>
+<p class="well well-sm post-author">
+  Written on: 03 Oct 2013
+</p>
+<hr>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_url = "http://www.natan.termitnjak.net/tutorials/pyglet_basic.html";
+</script>
+<script type="text/javascript" src="http://disqus.com/forums/natanblogdev/embed.js"></script>
+<noscript><a href="http://natanblogdev.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+</article>
+
+        </div>
+        <div class="col-sm-3">
+          
+
+<div class="sidebar">
+  <div class="well">
+    <h4><a href="/blog">Latest posts</a></h4>
+    <ul class="sidebar">
+      <li><a href="/blog/2013/10/07/welcome-to-the-blog">Welcome to the blog!</a></li>
+    </ul>
+  </div>
+  <div class="well">
+    <h4><a href="/blog/category">Popular categories</a></h4>
+    <ul class="sidebar">
+        <li><a href="/blog/category/welcome">welcome</a> <span class="badge">1</span></li>
+    </ul>
+  </div>
+  <div class="well">
+    <h4><a href="/tutorials">Latest Tutorials</a></h4>
+    <ul class="sidebar">
+        <li><a href="/tutorials/cocos2d_basic_1.html">Cocos2d - basic tutorial, part 1</a></li>
+        <li><a href="/tutorials/pyglet_basic.html">Pyglet - basic tutorial</a></li>
+    </ul>
+  </div>
+  <div class="well">
+    <h4><a href="/blog/archive">Archives</a></h4>
+    <ul class="sidebar">
+        <li><a href="/blog/archive/2013/10/1">October 2013</a> <span class="badge">1</span></li>
+    </ul>
+  </div>
+
+</div>
+
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <hr>
+      
+<footer>
+<div id="footer" class="row">
+  <div class="col-sm-8">
+    <p>
+      Copyright 2013-2013
+      Natan Žabkar
+    </p>
+    <p>
+      <a href="/blog/feed/index.xml">RSS</a>
+      | <a href="http://natanblogdev.disqus.com/latest.rss">Comments RSS</a>
+    </p>
+  </div>
+  <div class="col-sm-4">
+    <p>
+      Powered by <a href="http://www.blogofile.com">Blogofile</a>, built with <a href="http://getbootstrap.com/">Bootstrap</a>.
+    </p>
+  </div>
+</div>
+</footer>
+
+    </div>
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="/js/jquery-1.10.2.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+  <script src="/js/plugins.js"></script>
+  <script>
+    var toc = $("#toc ol");
+    var tmp = "";
+    var lastLevel = 1;
+    $("h1, h2, h3").each(function(i) {
+        var current = $(this);
+        var currentLevel = parseInt(current.prop('tagName')[1]);
+        while (currentLevel > lastLevel) {
+            tmp += "<ol>";
+            lastLevel += 1;
+        }
+        while (currentLevel < lastLevel) {
+            tmp += "</ol>";
+            lastLevel -= 1;
+            tmp += "</li>";
+        }
+        tmp += "<li><a id='#" + current.prop('id') + "-toc' href='#" + current.prop('id') + "'>" + current.html() + "</a>";
+
+    });
+
+    toc.append(tmp);
+
+  </script>
+  <script src="https://c328740.ssl.cf1.rackcdn.com/mathjax/latest/MathJax.js?config=TeX-AMS_HTML" type="text/javascript"></script>
+  <script type="text/javascript">
+  init_mathjax = function() {
+      if (window.MathJax) {
+          // MathJax loaded
+          MathJax.Hub.Config({
+              tex2jax: {
+                  inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                  displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+              },
+              displayAlign: 'left', // Change this to 'center' to center equations.
+              "HTML-CSS": {
+                  styles: {'.MathJax_Display': {"margin": 0}}
+              }
+          });
+          MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+      }
+  }
+  init_mathjax();
+  </script>
+  <!--[if lt IE 7 ]>
+  <script src="js/libs/dd_belatedpng.js"></script>
+  <script> DD_belatedPNG.fix('img, .png_bg');</script>
+  <![endif]-->
+  <script>
+      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+      s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+  <script>
+  (function() {
+      var links = document.getElementsByTagName('a');
+      var query = '?';
+      for(var i = 0; i < links.length; i++) {
+          if(links[i].href.indexOf('#disqus_thread') >= 0) {
+              query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+          }
+      }
+      document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/natanblogdev/get_num_replies.js' + query + '"></' + 'script>');
+  })();
+  </script>
+
+
+  </body>
+</html>
+
+
+
+
+
+
+
