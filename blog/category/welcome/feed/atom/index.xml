@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed
+  xmlns="http://www.w3.org/2005/Atom"
+  xmlns:thr="http://purl.org/syndication/thread/1.0"
+  xml:lang="en"
+   >
+  <title type="text">NMB's Development Blog</title>
+  <subtitle type="text">One of the many ...</subtitle>
+
+  <updated>2013-11-07T00:14:54Z</updated>
+  <generator uri="http://blogofile.com/">Blogofile</generator>
+
+  <link rel="alternate" type="text/html" href="http://www.natan.termitnjak.net//blog" />
+  <id>http://www.natan.termitnjak.net//blog/feed/atom/</id>
+  <link rel="self" type="application/atom+xml" href="http://www.natan.termitnjak.net//blog/feed/atom/" />
+  <entry>
+    <author>
+      <name></name>
+      <uri>http://www.natan.termitnjak.net//blog</uri>
+    </author>
+    <title type="html"><![CDATA[Welcome to the blog!]]></title>
+    <link rel="alternate" type="text/html" href="http://www.natan.termitnjak.net/blog/2013/10/07/welcome-to-the-blog" />
+    <id>http://www.natan.termitnjak.net/blog/2013/10/07/welcome-to-the-blog</id>
+    <updated>2013-10-07T00:33:00Z</updated>
+    <published>2013-10-07T00:33:00Z</published>
+    <category scheme="http://www.natan.termitnjak.net//blog" term="welcome" />
+    <summary type="html"><![CDATA[Welcome to the blog!]]></summary>
+    <content type="html" xml:base="http://www.natan.termitnjak.net/blog/2013/10/07/welcome-to-the-blog"><![CDATA[<p>With this post, my blog is officially open for business. It will primarily be
+used for Python related stuff and I am working on some <a href="/tutorials">tutorials</a>
+to put on here. The first one is already up so feel free to go read it and
+leave your comments!</p>
+<p>For the more technically inclined, an explanation of how the blog is set up.</p>
+<ul>
+<li>Built by <a href="http://www.blogofile.com/">Blogofile</a>, a Python static website
+  compiler</li>
+<li><a href="http://getbootstrap.com/">Twitter Bootstrap 3</a> for responsiveness</li>
+<li><a href="http://disqus.com/">Disqus</a> for comments</li>
+<li>Git on <a href="https://github.com/">GitHub</a> for version control</li>
+</ul>
+<p>I use two repositories on GitHub, one for the
+<a href="https://github.com/nightmarebadger/my_blog">source</a> and the second one for the
+<a href="https://github.com/nightmarebadger/my_blog_generated">generated source</a>. The
+generated source repository is then cloned to the hosting provider and hosted
+from there as plain HTML.</p>
+<p>The posts themselves can be written in Markdown, HTML or RST, while the
+tutorials are written in the <a href="http://ipython.org/notebook.html">IPython
+Notebook</a> and then converted to basic HTML
+and integrated into the blog using Blogofile's controllers and <a href="http://www.makotemplates.org/">Mako
+templates</a>.</p>
+<p>More information on how to set up your own Blogofile blog in a similar way to
+follow.</p>]]></content>
+  </entry>
+</feed>
