@@ -7,7 +7,7 @@
   <title type="text">NMB's Development Blog</title>
   <subtitle type="text">Blog with tutorials about Python, web developent and various other interesting topics from the world of computers.</subtitle>
 
-  <updated>2013-11-12T17:16:58Z</updated>
+  <updated>2013-11-12T21:21:57Z</updated>
   <generator uri="http://blogofile.com/">Blogofile</generator>
 
   <link rel="alternate" type="text/html" href="http://www.natan.termitnjak.net//blog" />
@@ -68,10 +68,10 @@ quickly search and change between them. It is also not only limited to simple
 file searching and opening, but you can also:</p>
 <ul>
 <li>Start typing to search between the files</li>
-<li>Type <em>@</em> to search between sections of the file (headers, function
+<li>Type "@"" to search between sections of the file (headers, function
   definitions etc.)</li>
-<li>Type <em>#</em> to search within the file</li>
-<li>Type <em>:</em> to go to a line number</li>
+<li>Type "#"" to search within the file</li>
+<li>Type ":" to go to a line number</li>
 </ul>
 <p>And now the real catch - these options can be combined! So I can fire up the
 Goto anything using the command <em>Ctrl+P</em>, write "edit" to find the
