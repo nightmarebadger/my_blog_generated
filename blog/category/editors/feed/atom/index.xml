@@ -1,29 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-     xmlns:content="http://purl.org/rss/1.0/modules/content/"
-     xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
-     xmlns:atom="http://www.w3.org/2005/Atom"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
-     >
-  <channel>
-    <title>NMB's Development Blog</title>
-    <link>http://www.natan.termitnjak.net//blog</link>
-    <description>Blog with tutorials about Python, web developent and various other interesting topics from the world of computers.</description>
-    <pubDate>Tue, 12 Nov 2013 17:16:58 GMT</pubDate>
-    <generator>Blogofile</generator>
-    <sy:updatePeriod>hourly</sy:updatePeriod>
-    <sy:updateFrequency>1</sy:updateFrequency>
-    <item>
-      <title>Battle of the editors - Sublime Text 2</title>
-      <link>http://www.natan.termitnjak.net/blog/2013/10/11/battle-of-the-editors-sublime-text-2</link>
-      <pubDate>Fri, 11 Oct 2013 02:30:00 CEST</pubDate>
-      <category><![CDATA[sublime text]]></category>
-      <category><![CDATA[programming tools]]></category>
-      <category><![CDATA[editors]]></category>
-      <guid isPermaLink="false">Nfo2RMw3PHMUE_JAXRl4tmmEjb4=</guid>
-      <description>Battle of the editors - Sublime Text 2</description>
-      <content:encoded><![CDATA[<p>As most of us, I've been struggling with finding the "perfect" editor. For me,
+<feed
+  xmlns="http://www.w3.org/2005/Atom"
+  xmlns:thr="http://purl.org/syndication/thread/1.0"
+  xml:lang="en"
+   >
+  <title type="text">NMB's Development Blog</title>
+  <subtitle type="text">Blog with tutorials about Python, web developent and various other interesting topics from the world of computers.</subtitle>
+
+  <updated>2013-11-12T17:16:58Z</updated>
+  <generator uri="http://blogofile.com/">Blogofile</generator>
+
+  <link rel="alternate" type="text/html" href="http://www.natan.termitnjak.net//blog" />
+  <id>http://www.natan.termitnjak.net//blog/feed/atom/</id>
+  <link rel="self" type="application/atom+xml" href="http://www.natan.termitnjak.net//blog/feed/atom/" />
+  <entry>
+    <author>
+      <name></name>
+      <uri>http://www.natan.termitnjak.net//blog</uri>
+    </author>
+    <title type="html"><![CDATA[Battle of the editors - Sublime Text 2]]></title>
+    <link rel="alternate" type="text/html" href="http://www.natan.termitnjak.net/blog/2013/10/11/battle-of-the-editors-sublime-text-2" />
+    <id>http://www.natan.termitnjak.net/blog/2013/10/11/battle-of-the-editors-sublime-text-2</id>
+    <updated>2013-10-11T02:30:00Z</updated>
+    <published>2013-10-11T02:30:00Z</published>
+    <category scheme="http://www.natan.termitnjak.net//blog" term="sublime text" />
+    <category scheme="http://www.natan.termitnjak.net//blog" term="programming tools" />
+    <category scheme="http://www.natan.termitnjak.net//blog" term="editors" />
+    <summary type="html"><![CDATA[Battle of the editors - Sublime Text 2]]></summary>
+    <content type="html" xml:base="http://www.natan.termitnjak.net/blog/2013/10/11/battle-of-the-editors-sublime-text-2"><![CDATA[<p>As most of us, I've been struggling with finding the "perfect" editor. For me,
 that meant an editor that could be used for many different languages (C,
 Python, HTML, CSS, JavaScript, ... ), could also be used for "normal" use
 (Markdown, RST, LaTeX), would start up fast and generally be fast enough so I
@@ -139,39 +143,6 @@ automatically added to the Command palette and it's own default and user
 settings.</p>
 <h2 id="personal-settings">Personal settings</h2>
 <p>A blog post with my personal settings, the packages I use and how I keep
-everything synchronised between machines will follow soon.</p>]]></content:encoded>
-    </item>
-    <item>
-      <title>Welcome to the blog!</title>
-      <link>http://www.natan.termitnjak.net/blog/2013/10/07/welcome-to-the-blog</link>
-      <pubDate>Mon, 07 Oct 2013 00:33:00 CEST</pubDate>
-      <category><![CDATA[welcome]]></category>
-      <guid isPermaLink="false">Io35uMCERow6QMrpZfGOM_WyugA=</guid>
-      <description>Welcome to the blog!</description>
-      <content:encoded><![CDATA[<p>With this post, my blog is officially open for business. It will primarily be
-used for Python related stuff and I am working on some <a href="/tutorials">tutorials</a>
-to put on here. The first one is already up so feel free to go read it and
-leave your comments!</p>
-<p>For the more technically inclined, an explanation of how the blog is set up.</p>
-<ul>
-<li>Built by <a href="http://www.blogofile.com/">Blogofile</a>, a Python static website
-  compiler</li>
-<li><a href="http://getbootstrap.com/">Twitter Bootstrap 3</a> for responsiveness</li>
-<li><a href="http://disqus.com/">Disqus</a> for comments</li>
-<li>Git on <a href="https://github.com/">GitHub</a> for version control</li>
-</ul>
-<p>I use two repositories on GitHub, one for the
-<a href="https://github.com/nightmarebadger/my_blog">source</a> and the second one for the
-<a href="https://github.com/nightmarebadger/my_blog_generated">generated source</a>. The
-generated source repository is then cloned to the hosting provider and hosted
-from there as plain HTML.</p>
-<p>The posts themselves can be written in Markdown, HTML or RST, while the
-tutorials are written in the <a href="http://ipython.org/notebook.html">IPython
-Notebook</a> and then converted to basic HTML
-and integrated into the blog using Blogofile's controllers and <a href="http://www.makotemplates.org/">Mako
-templates</a>.</p>
-<p>More information on how to set up your own Blogofile blog in a similar way to
-follow.</p>]]></content:encoded>
-    </item>
-  </channel>
-</rss>
+everything synchronised between machines will follow soon.</p>]]></content>
+  </entry>
+</feed>
