@@ -7,7 +7,7 @@
   <title type="text">NMB's Development Blog</title>
   <subtitle type="text">Blog with tutorials about Python, web developent and various other interesting topics from the world of computers.</subtitle>
 
-  <updated>2013-11-13T10:27:06Z</updated>
+  <updated>2013-11-13T10:38:43Z</updated>
   <generator uri="http://blogofile.com/">Blogofile</generator>
 
   <link rel="alternate" type="text/html" href="http://www.natan.termitnjak.net//blog" />
@@ -19,13 +19,13 @@
       <uri>http://www.natan.termitnjak.net//blog</uri>
     </author>
     <title type="html"><![CDATA[Welcome to the blog!]]></title>
-    <link rel="alternate" type="text/html" href="http://www.natan.termitnjak.net/blog/2013/10/07/welcome-to-the-blog" />
-    <id>http://www.natan.termitnjak.net/blog/2013/10/07/welcome-to-the-blog</id>
-    <updated>2013-10-07T00:33:00Z</updated>
-    <published>2013-10-07T00:33:00Z</published>
+    <link rel="alternate" type="text/html" href="http://www.natan.termitnjak.net/blog/2013/11/07/welcome-to-the-blog" />
+    <id>http://www.natan.termitnjak.net/blog/2013/11/07/welcome-to-the-blog</id>
+    <updated>2013-11-07T00:33:00Z</updated>
+    <published>2013-11-07T00:33:00Z</published>
     <category scheme="http://www.natan.termitnjak.net//blog" term="welcome" />
     <summary type="html"><![CDATA[Welcome to the blog!]]></summary>
-    <content type="html" xml:base="http://www.natan.termitnjak.net/blog/2013/10/07/welcome-to-the-blog"><![CDATA[<p>With this post, my blog is officially open for business. It will primarily be
+    <content type="html" xml:base="http://www.natan.termitnjak.net/blog/2013/11/07/welcome-to-the-blog"><![CDATA[<p>With this post, my blog is officially open for business. It will primarily be
 used for Python related stuff and I am working on some <a href="/tutorials">tutorials</a>
 to put on here. The first one is already up so feel free to go read it and
 leave your comments!</p>

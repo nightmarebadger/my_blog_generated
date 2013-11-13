@@ -7,7 +7,7 @@
   <title type="text">NMB's Development Blog</title>
   <subtitle type="text">Blog with tutorials about Python, web developent and various other interesting topics from the world of computers.</subtitle>
 
-  <updated>2013-11-13T10:27:06Z</updated>
+  <updated>2013-11-13T10:38:43Z</updated>
   <generator uri="http://blogofile.com/">Blogofile</generator>
 
   <link rel="alternate" type="text/html" href="http://www.natan.termitnjak.net//blog" />
@@ -19,15 +19,15 @@
       <uri>http://www.natan.termitnjak.net//blog</uri>
     </author>
     <title type="html"><![CDATA[Battle of the editors - Sublime Text 2]]></title>
-    <link rel="alternate" type="text/html" href="http://www.natan.termitnjak.net/blog/2013/10/11/battle-of-the-editors-sublime-text-2" />
-    <id>http://www.natan.termitnjak.net/blog/2013/10/11/battle-of-the-editors-sublime-text-2</id>
-    <updated>2013-10-11T02:30:00Z</updated>
-    <published>2013-10-11T02:30:00Z</published>
+    <link rel="alternate" type="text/html" href="http://www.natan.termitnjak.net/blog/2013/11/11/battle-of-the-editors-sublime-text-2" />
+    <id>http://www.natan.termitnjak.net/blog/2013/11/11/battle-of-the-editors-sublime-text-2</id>
+    <updated>2013-11-11T02:30:00Z</updated>
+    <published>2013-11-11T02:30:00Z</published>
     <category scheme="http://www.natan.termitnjak.net//blog" term="sublime text" />
     <category scheme="http://www.natan.termitnjak.net//blog" term="programming tools" />
     <category scheme="http://www.natan.termitnjak.net//blog" term="editors" />
     <summary type="html"><![CDATA[Battle of the editors - Sublime Text 2]]></summary>
-    <content type="html" xml:base="http://www.natan.termitnjak.net/blog/2013/10/11/battle-of-the-editors-sublime-text-2"><![CDATA[<p>As most of us, I've been struggling with finding the "perfect" editor. For me,
+    <content type="html" xml:base="http://www.natan.termitnjak.net/blog/2013/11/11/battle-of-the-editors-sublime-text-2"><![CDATA[<p>As most of us, I've been struggling with finding the "perfect" editor. For me,
 that meant an editor that could be used for many different languages (C,
 Python, HTML, CSS, JavaScript, ... ), could also be used for "normal" use
 (Markdown, RST, LaTeX), would start up fast and generally be fast enough so I
