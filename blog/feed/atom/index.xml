@@ -7,7 +7,7 @@
   <title type="text">NMB's Development Blog</title>
   <subtitle type="text">Blog with tutorials about Python, web developent and various other interesting topics from the world of computers.</subtitle>
 
-  <updated>2013-11-12T21:33:39Z</updated>
+  <updated>2013-11-13T10:27:06Z</updated>
   <generator uri="http://blogofile.com/">Blogofile</generator>
 
   <link rel="alternate" type="text/html" href="http://www.natan.termitnjak.net//blog" />
@@ -40,6 +40,11 @@ on always working on the same operating system.</p>
 <p>In the end, I have found what I have been looking for in Sublime Text 2, which,
 at least for now, is close enough to my "perfect" editor that I do not feel the
 need to test out new editors.</p>
+<p>This editor is light, fast and has a nice &amp; clean design. The out of the box
+functionality is good, and can very easily be extended using packages from the
+Package control. It's also Python based, so writing or changing/adding to
+plugins is a breeze. Additionally, it offers some really useful features I
+haven't seen in other editors I have used.</p>
 <h2 id="editors-i-have-used-in-the-past">Editors I have used in the past</h2>
 <p>The editors I've gone through until now are:</p>
 <ul>
