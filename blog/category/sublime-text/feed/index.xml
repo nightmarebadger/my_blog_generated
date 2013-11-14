@@ -10,7 +10,7 @@
     <title>NMB's Development Blog</title>
     <link>http://www.natan.termitnjak.net//blog</link>
     <description>Blog with tutorials about Python, web developent and various other interesting topics from the world of computers.</description>
-    <pubDate>Wed, 13 Nov 2013 10:38:43 GMT</pubDate>
+    <pubDate>Thu, 14 Nov 2013 12:49:59 GMT</pubDate>
     <generator>Blogofile</generator>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
@@ -118,7 +118,8 @@ sure don't.</p>
 somewhere in the paragraph, just press <em>Alt+Q</em> and it's done.</p>
 <p>To make sure everything works fine even in markdown lists, code comments etc. I
 recommend installing the <a href="https://github.com/ehuss/Sublime-Wrap-Plus">Sublime Wrap
-Plus</a> package.</p>
+Plus</a> package (read below how to
+install packages easily).</p>
 <h3 id="spell-check">Spell check</h3>
 <p>Integrated spell checker to use when writing LaTeX, Markdown, RST etc. It uses
 LibreOffice dictionaries so you can download the language you want. Enable it
@@ -129,6 +130,17 @@ The selection will move up or down according to your commands, "pushing" the
 other lines above or below it (depending on which way you're going of course).
 A simple and fast way of moving some code around, plus it looks like magic to
 anyone looking over your shoulder :).</p>
+<h3 id="sort-lines-and-removing-duplicate-lines">Sort lines and removing duplicate lines</h3>
+<p>Sublime Text 2 comes with an integrated command to sort lines (<em>F9</em> or open up
+the command palette and find it there). Those pesky imports at the top of each
+file that you want to sort alphabetically? Well, now you can do it, quick and
+easy.</p>
+<p>Another great feature can be found under <em>Edit &gt; Permute Lines &gt; Unique</em>, which
+gets rid of the duplicates.</p>
+<p>Using a combination of those commands together with the
+<a href="https://github.com/amisarca/Sublime-Text-2-Table-Cleaner">TableCleaner</a> you
+can make data gotten from logs, debugs etc. presentable and readable very
+quickly and easily.</p>
 <h3 id="package-control"><a href="https://sublime.wbond.net/">Package control</a></h3>
 <p>Leaving the best for last, this is the hearth and soul of Sublime Text 2 for
 me. It is a great and easy way to install and manage your packages.</p>
