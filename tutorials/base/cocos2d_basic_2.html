@@ -1,0 +1,40 @@
+
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="A-very-basic-Cocos2d-tutorial,-part-2">A very basic Cocos2d tutorial, part 2<a class="anchor-link" href="#A-very-basic-Cocos2d-tutorial,-part-2">&#182;</a></h1>
+</div>
+
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>In this tutorial, we will add movement to all the henchmen. This means we will take a closer look at <a href="http://cocos2d.org/doc/programming_guide/actions.html">Actions</a> and use them to produce different movements for different henchmen.</p>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Actions">Actions<a class="anchor-link" href="#Actions">&#182;</a></h1>
+</div>
+
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><em>Actions</em> are basically orders passed to a <code>CocosNode</code> object, and they usually modify one or more of the object's attributes like <code>position</code>, <code>rotation</code>, <code>scale</code> etc.</p>
+<p><em>Actions</em> are split in two basic types - actions that are instant (<a href="http://cocos2d.org/doc/api/cocos.actions.base_actions.InstantAction-class.html">InstantActions</a>) and actions that modify the attributes over a period of time (<a href="http://cocos2d.org/doc/api/cocos.actions.base_actions.IntervalAction-class.html">IntervalActions</a>).</p>
+<p>We have already used an <em>Action</em> in the previous tutorial; the <em>Move</em> action, which moves the target based on the parameters <code>velocity</code>, <code>acceleration</code> and <code>gravity</code>, where the first two are (x, y) tuples.</p>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Instant-actions">Instant actions<a class="anchor-link" href="#Instant-actions">&#182;</a></h2>
+</div>
+
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Actions like <code>Hide</code> (hides the object), <code>Show</code> (shows the object) and <code>Place</code> (&quot;teleports&quot; the object to the specified position) are instant actions.</p>
+<p>Programmatically speaking, <code>InstantActions</code> aren't all that different from <code>IntervalActions</code> - they just promise us that any changes that are performed on the target will be done in the <code>.start</code> method and their methods <code>.step</code>, <code>.update</code> and <code>.stop</code> do not do anything. This makes sure that <code>InstantActions</code> remain &quot;compatible&quot; with <code>IntervalActions</code>, meaning we can combine them in various ways.</p>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Interval-actions">Interval actions<a class="anchor-link" href="#Interval-actions">&#182;</a></h2>
+</div>
+
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Interval actions are actions that change the target's parameters over a fixed duration. For instance, the actions <code>MoveTo((50, 50), 10)</code> would move the target to the position (50, 50) in 10 seconds.</p>
+<p>Interval actions can also be degenerated with a duration of 0, practically turning them into instant actions. The player would not see a difference between <code>MoveTo((50, 50), 0)</code> and `<code>Place((50, 50))</code>.</p>
+</div>
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Combining-actions">Combining actions<a class="anchor-link" href="#Combining-actions">&#182;</a></h2>
+</div>
+
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Actions can easily be combined together to build a chain of subsequent actions. To chain actions together, you can use math operators + and *, which do exactly what you would expect them to.</p>
+</div>
