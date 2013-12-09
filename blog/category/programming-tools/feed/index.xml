@@ -10,10 +10,268 @@
     <title>NMB's Development Blog</title>
     <link>http://www.natan.termitnjak.net//blog</link>
     <description>Blog with tutorials about Python, web developent and various other interesting topics from the world of computers.</description>
-    <pubDate>Mon, 09 Dec 2013 00:21:21 GMT</pubDate>
+    <pubDate>Mon, 09 Dec 2013 22:33:56 GMT</pubDate>
     <generator>Blogofile</generator>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
+    <item>
+      <title>My Sublime Text 2 settings</title>
+      <link>http://www.natan.termitnjak.net/blog/2013/12/08/my-sublime-text-2-settings</link>
+      <pubDate>Sun, 08 Dec 2013 22:00:00 CET</pubDate>
+      <category><![CDATA[sublime text]]></category>
+      <category><![CDATA[programming tools]]></category>
+      <category><![CDATA[editors]]></category>
+      <guid isPermaLink="false">L_-uDkoV-XA6fvqj96fshQtaQgs=</guid>
+      <description>My Sublime Text 2 settings</description>
+      <content:encoded><![CDATA[<p>In this post I will go through the core addons I use (I might use some more
+here and there but these are the ones I find the most useful).</p>
+<h2 id="addons-i-use">Addons I use</h2>
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Addon name and link</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>
+                <a href="https://github.com/simme--/Auto-Encoding-for-Python">
+                    Auto Encoding for Python
+                </a>
+            </td>
+            <td>
+
+                Automatically include utf-8 Python encoding where needed.
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/spadgos/sublime-jsdocs">
+                    DocBlockr
+                </a>
+            </td>
+            <td>
+
+                Simplifies writing DocBlock comments in JS, CoffeScript,
+                Actionscript, PHP, C, ...
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/revolunet/sublimetext-markdown-preview">
+                    Mako
+                </a>
+            </td>
+            <td>
+
+                Added support for Mako templates highlighting.
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/revolunet/sublimetext-markdown-preview">
+                    Markdown Preview
+                </a>
+            </td>
+            <td>
+
+                Preview for your markdown files.
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/borist/SublimePaneNavigation">
+                    Pane Navigation
+                </a>
+            </td>
+            <td>
+
+                Changes tab navigation (Ctrl + Tab) to be more in
+                line with what we're used to.
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/titoBouzout/SideBarEnhancements">
+                    SideBarEnhancements
+                </a>
+            </td>
+            <td>
+
+                Gives extra options in the sidebar.
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/SublimeCodeIntel/SublimeCodeIntel">
+                    SublimeCodeIntel
+                </a>
+            </td>
+            <td>
+
+                Code intelligence plugin (imports autocomplete, function
+                tooltips, jump to definition, ... ).
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/SublimeLinter/SublimeLinter">
+                    SublimeLinter
+                </a>
+            </td>
+            <td>
+
+                Support for "lint" programs for many languages.
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/JulianEberius/SublimeRope">
+                    SublimeRope
+                </a>
+            </td>
+            <td>
+
+                Adds Rope (re-factoring library) support.
+
+            </td>
+        </tr>
+         <tr>
+            <td>
+                <a href="https://github.com/JulianEberius/SublimeRope">
+                    Sublime Wrap Plus
+                </a>
+            </td>
+            <td>
+
+                Extra support for hard line wrap.
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/amisarca/Sublime-Text-2-Table-Cleaner">
+                    TableCleaner
+                </a>
+            </td>
+            <td>
+
+                Cleans tables (aligns and cleans nicely on "pipe" character
+                (|), useful for Sphinx documentation, LaTeX etc.).
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/SublimeText/Tag">
+                    Tag
+                </a>
+            </td>
+            <td>
+
+                Provides extra support for HTMLish tags - auto close tags on
+                slash, automatically indent tags etc.
+
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<h3 id="auto-encoding-for-python">Auto Encoding for Python</h3>
+<p>Since I speak a language that often uses utf-8 characters, I'm getting tired of
+writing <code># -*- coding: utf-8 -*-</code> or something similar on the top of each file
+that uses one of those characters. This addon does that for me, only generating
+the encoding declaration when it's needed and deleting it when it's not needed
+any more.</p>
+<h3 id="docblockr">DocBlockr</h3>
+<p>Really simplifies the writing of block comments for functions in JS etc. I've
+also started working on Python support, but it's not that far along yet. You
+can find what I've added on my
+<a href="https://github.com/nightmarebadger/sublime-jsdocs/tree/add_python_support">GitHub</a>.</p>
+<h3 id="mako">Mako</h3>
+<p>Adds the Mako template syntax highlighter to Sublime Text 2. Very useful for
+everyone working with Mako templates.</p>
+<h3 id="markdown-preview">Markdown Preview</h3>
+<p>An addon that allows you quickly build the Markdown in the currently open file
+and preview it in the browser. Very useful, especially when you are just
+starting to learn Markdown.</p>
+<p>Once you generate the file, it's also automatically updated on each save,
+making it a very fast way to check how your changes changed the document.</p>
+<p>Also supports Git flavoured Markdown, which uses the actual GitHub API, and as
+such, a Python with SSL support is required.</p>
+<h3 id="pane-navigation">Pane Navigation</h3>
+<p>Changing between opened files in Sublime Text 2 using <em>Ctrl+Tab</em> or
+<em>Ctrl+Shift+Tab</em> can be an ... interesting experience. It definitely does not
+work as you would expect at the beginning (it does not move right or left
+through the opened tabs, but rather works through a last-changed list or
+something like that).</p>
+<p>If you do not like how it's handled in the vanilla install, grab this package,
+which changes the navigation to something you're probably more used to
+(<em>Ctrl+Tab</em> moves right, <em>Ctrl+Shift+Tab</em> moves left).</p>
+<h3 id="sidebarenhancements">SideBarEnhancements</h3>
+<p>Adds many new options like deleting, moving, renaming, copying etc. to the
+Sidebar. Frankly I've used this since I started using ST2 so I'm not completely
+sure which options are integrated and which options are added by the package,
+but you surely have nothing to lose by installing this.</p>
+<h3 id="sublimecodeintel">SublimeCodeIntel</h3>
+<p>Adds code intelligence, ported from <a href="http://www.openkomodo.com/">Open Komodo
+Editor</a>. Adds stuff like function call tool tips,
+auto completion from imports, jump to symbol definition etc.</p>
+<h3 id="sublimelinter">SublimeLinter</h3>
+<p>Adds support for "lint" programs for many languages. This is an invaluable tool
+that constantly checks your code to see if it's up to the standards, making it
+easy to produce better code faster. Do not even think if you need this or not -
+just install it :).</p>
+<h3 id="sublimerope">SublimeRope</h3>
+<p>Adds support for the Rope (re-factoring library), making it even easier to
+re-factor and restructure your code, automatically manage your imports, get
+documentation, features an extended auto completion etc.</p>
+<h3 id="sublimewrapplus">SublimeWrapPlus</h3>
+<p>Better hard line wrapping (<em>Alt+Q</em>), now works correctly in many instances
+where it didn't work as expected before (for instance in Markdown lists).</p>
+<h3 id="tablecleaner">TableCleaner</h3>
+<p>I use it to align tables/data that I write. Very useful when trying to organise
+some data or when writing LaTeX or Markdown tables.</p>
+<h3 id="tag">Tag</h3>
+<p>Extra support for writing HTML tags, makes writing HTML much easier and faster.
+It helps with closing tags, adds autocompletion for HTML tags using <em>Tab</em> etc.</p>
+<h2 id="personal-settings">Personal settings</h2>
+<p>I will not list my full settings (which include dictionaries etc.) or settings
+for individual addons, but rather just the base settings I think might be
+useful to everyone.</p>
+<pre><code>{
+    "ensure_newline_at_eof_on_save": true,
+    "fallback_encoding": "UTF-8",
+    "hot_exit": false,
+    "remember_open_files": false,
+    "rulers":
+    [
+        79
+    ],
+    "tab_size": 4,
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true
+}
+</code></pre>
+<p>The settings are more or less self explanatory - I make sure to always use
+spaces instead of tabs (one tab equals to 4 spaces), ensure a newline at the
+end of file and trim trailing white space on save.</p>
+<p>I also disabled "hot exit", which closes without prompting to save and
+preserves your changes until you open Sublime Text 2 again. This, in addition
+to disabling the "remember_open_files" option makes sure I always start with a
+clean editor (unless it crashed, where everything is still preserved and all
+windows are reopened).</p>
+<p>I also set a ruler to 79 characters for keeping with Python coding standards.</p>]]></content:encoded>
+    </item>
     <item>
       <title>Battle of the editors - Sublime Text 2</title>
       <link>http://www.natan.termitnjak.net/blog/2013/11/11/battle-of-the-editors-sublime-text-2</link>
@@ -142,10 +400,10 @@ gets rid of the duplicates.</p>
 can make data gotten from logs, debugs etc. presentable and readable very
 quickly and easily.</p>
 <h3 id="package-control"><a href="https://sublime.wbond.net/">Package control</a></h3>
-<p>Leaving the best for last, this is the hearth and soul of Sublime Text 2 for
+<p>Leaving the best for last, this is the heart and soul of Sublime Text 2 for
 me. It is a great and easy way to install and manage your packages.</p>
 <p>Basically it allows you to download packages through the Command palette
-(*Ctrl+Shift+P) with the "Package control: Install Package" command, which
+(<em>Ctrl+Shift+P</em>) with the "Package control: Install Package" command, which
 looks on the web to find the list of all packages with their descriptions that
 can be searched as all other commands in the Command palette can.</p>
 <p>Once you find the package you are looking for, just press enter to quickly and
