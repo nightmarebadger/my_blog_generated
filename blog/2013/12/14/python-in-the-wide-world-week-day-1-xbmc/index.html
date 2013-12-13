@@ -12,10 +12,10 @@
 
 
 
-  <title>NMB's Development Blog</title>
+  <title>NMB's Development Blog: Python in the wide world week - day 1, XBMC</title>
   <meta name="description" content="Blog with tutorials about Python, web developent and various other interesting topics from the world of computers.">
   <meta name="author" content="Natan Žabkar">
-  <meta name="keywords" content="programming, python, natan zabkar, nightmarebadger">
+  <meta name="keywords" content="programming, python, natan zabkar, nightmarebadger, python">
   <meta charset="UTF-8">
   <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/blog/feed" />
   <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="/blog/feed/atom" />
@@ -29,7 +29,6 @@
   <link rel="stylesheet" href="/css/bootstrap.min.css" />
   <link rel="stylesheet" href="/css/bootstrap-theme.min.css" />
   <link rel="stylesheet" href="/css/custom.css" />
-    <link rel="stylesheet" href="/css/custom-notebook.css" />
 
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
@@ -53,13 +52,13 @@
         <li class="">
           <a href="/"><i class="fa fa-home"></i> Home</a>
         </li>
-        <li class="">
+        <li class="active">
           <a href="/blog"><i class="fa fa-file-o"></i> Blog</a>
         </li>
         <li class="">
           <a href="/blog/category"><i class="fa fa-files-o"></i> Categories</a>
         </li>
-        <li class="active">
+        <li class="">
           <a href="/tutorials"><i class="fa fa-code"></i> Tutorials</a>
         </li>
         <li class="">
@@ -81,60 +80,103 @@
       <div class="row">
         <div class="col-sm-9">
           
-<article class="tutorials_index">
-        
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <div class="well">
-                    <h3><a href="cocos2d_basic_2.html">Cocos2d - basic tutorial, part 2</a></h3>
-                    <p><p>Continuing from part 1, we will look at Cocos2d
-                          Actions and use them to add dynamic movement to the
-                          enemy henchmen.</p>
-                       </p>
-                    <span class="date">Written on: 23 Nov 2013</span>
-                        <br>
-                        <!-- This won't work locally but will work on the server. Will keep it local so it you won't jump from local to internet version accidentally, so the number will always be 0 when not running on the server -->
-                        <a href="cocos2d_basic_2.html#disqus_thread">View Comments</a>
-                </div>
-            </div>
-            
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <div class="well">
-                    <h3><a href="cocos2d_basic_1.html">Cocos2d - basic tutorial, part 1</a></h3>
-                    <p><p>This tutorial continues where the Pyglet one
-                          dropped off.</p>
 
-                          <p>We will remake the game we built there in Cocos2,
-                          and in later parts will be adding more features to it
-                          until it looks and feels like an actual game.</p>
-                       </p>
-                    <span class="date">Written on: 05 Nov 2013</span>
-                        <br>
-                        <!-- This won't work locally but will work on the server. Will keep it local so it you won't jump from local to internet version accidentally, so the number will always be 0 when not running on the server -->
-                        <a href="cocos2d_basic_1.html#disqus_thread">View Comments</a>
-                </div>
-            </div>
-                <div class="clearfix visible-sm"></div>
-            
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                <div class="well">
-                    <h3><a href="pyglet_basic.html">Pyglet - basic tutorial</a></h3>
-                    <p><p>In this tutorial, we will look over the basics of
-                          Pyglet, the cross-platform windowing and multimedia
-                          library for Python.</p>
 
-                          <p>We will build a simple game, which will later be
-                          used as a start for further tutorials.</p>
-                       </p>
-                    <span class="date">Written on: 03 Nov 2013</span>
-                        <br>
-                        <!-- This won't work locally but will work on the server. Will keep it local so it you won't jump from local to internet version accidentally, so the number will always be 0 when not running on the server -->
-                        <a href="pyglet_basic.html#disqus_thread">View Comments</a>
-                </div>
-            </div>
-                <div class="clearfix visible-md visible-lg"></div>
-            
 
+
+<article>
+  <div class="blog_post">
+    <header>
+      <div id="python-in-the-wide-world-week-day-1-xbmc"></div>
+      <h1 class="blog_post_title"><a href="/blog/2013/12/14/python-in-the-wide-world-week-day-1-xbmc" rel="bookmark" title="Permanent Link to Python in the wide world week - day 1, XBMC">Python in the wide world week - day 1, XBMC</a></h1>
+      <p><small><span class="blog_post_date">December 14, 2013 at 08:15 PM</span> | categories:
+        <span class="blog_post_categories">python</span>
+        | <a href="http://www.natan.termitnjak.net/blog/2013/12/14/python-in-the-wide-world-week-day-1-xbmc#disqus_thread">View Comments</a>
+      </small></p>
+    </header>
+
+    
+  
+    <div id="toc" class="well well-sm">
+      <p class="toctitle centered">
+        Contents
+        <span>
+          [<a data-toggle="collapse" data-parent="#toc" href="#toc-content">show/hide</a>]
+        </span>
+      </p>
+      <ol id="toc-content" class="collapse">
+      </ol>
+    </div>
+  
+
+
+    <div class="post_prose">
+      
+  <p>In an effort to actually post something here, I have decided to do a series of
+"XXX week" posts. Starting off with a Python in the wide world week, I'll be
+exploring some interesting places where Python is used in the real world.</p>
+<h2 id="xbmc"><a href="http://xbmc.org/">XBMC</a></h2>
+<p><a href="http://xbmc.org/about/"><img src="/images/xbmc_about.jpg" alt="XBMC"></a></p>
+<h3 id="what-is-xbmc">What is XBMC?</h3>
+<p><a href="http://xbmc.org/">XBMC</a> is a free and <a href="https://github.com/xbmc/xbmc">open source</a> media player
+developed by the <a href="http://xbmc.org/about/xbmc-foundation/">XBMC foundation</a>.
+While it was originally created as a media center for the <a href="http://en.wikipedia.org/wiki/Xbox">original Xbox gaming
+console</a> (hence the name <strong>XB</strong>ox <strong>M</strong>edia
+<strong>C</strong>enter), it is now natively available on Windows, various Linux
+distributions, Mac OSX, Android, Raspberry Pi, iOS, Apple TV and Apple TV 2
+(<a href="http://xbmc.org/download/">download link</a>). If that is not enough for you,
+XMBC also features it's own (Ubuntu based) Linux distribution so you can easily
+carry XBMC on your USB key/disk if you wish so.</p>
+<p><a href="http://xbmc.org/">XBMC</a> became so popular that it spawned <a href="http://wiki.xbmc.org/index.php?title=Third-party_forks_and_derivatives">countless
+forks</a>,
+many of which are now separate products with many users.</p>
+<p>I personally use <a href="http://xbmc.org/">XBMC</a> on my Home Theatre PC (HTPC) for watching movies
+comfortably, using my Android phone with
+<a href="https://play.google.com/store/apps/details?id=org.leetzone.android.yatsewidgetfree&amp;hl=en">Yatse</a>
+as a remote.</p>
+<h3 id="where-is-python-used">Where is Python used?</h3>
+<p>The core for <a href="http://xbmc.org/">XBMC</a> is written in C++, but it <a href="http://wiki.xbmc.org/index.php?title=Python_development">uses
+Python</a> for its many
+wonderful <a href="http://addons.xbmc.org/">add-ons</a>, which offer everything from
+scrapping for metadata, <a href="http://addons.xbmc.org/show/plugin.program.utorrent/">managing your torrent
+downloads</a>, surfing the
+web, checking <a href="http://addons.xbmc.org/category/weather/">the weather</a>, watching
+YouTube or Twitch.tv, automatically downloading
+<a href="http://addons.xbmc.org/category/lyrics/">lyrics</a> and (my personal favourite)
+automatically downloading
+<a href="http://addons.xbmc.org/show/script.xbmc.subtitles/">subtitles</a>.</p>
+<p>Believe me, once you get used to quickly and easily getting the subtitles you
+won't want to go back to surfing the web, downloading the files, extracting
+them, pulling them to the player ...</p>
+
+    </div>
+    <!-- This is needed here so we don't get caught 'inside' the code highlighter when building excrements. I know it's not nice, but it's the only way I could make it work right now and even though it's far from perfect, it doesn't break the site -->
+    </pre></tr></tbody></thead></table>
+    <!-- End code highlighter workaroung -->
+    <p class="well well-sm post-author">
+      Written by: Natan Žabkar
+    </p>
+    
+
+
+      <hr>
+  </div>
 </article>
+
+<script>
+  var toc_selector = "h2, h3, h4";
+</script>
+
+
+
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_url = "http://www.natan.termitnjak.net/blog/2013/12/14/python-in-the-wide-world-week-day-1-xbmc";
+</script>
+<script type="text/javascript" src="http://disqus.com/forums/natanblogdev/embed.js"></script>
+<noscript><a href="http://natanblogdev.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 
         </div>
         <div class="col-sm-3">
