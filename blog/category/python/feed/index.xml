@@ -10,10 +10,50 @@
     <title>NMB's Development Blog</title>
     <link>http://www.natan.termitnjak.net//blog</link>
     <description>Blog with tutorials about Python, web developent and various other interesting topics from the world of computers.</description>
-    <pubDate>Tue, 17 Dec 2013 02:03:35 GMT</pubDate>
+    <pubDate>Wed, 18 Dec 2013 00:01:17 GMT</pubDate>
     <generator>Blogofile</generator>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
+    <item>
+      <title>Python in the wide world week - day 2, Dropbox</title>
+      <link>http://www.natan.termitnjak.net/blog/2013/12/17/python-in-the-wide-world-week-day-2-dropbox</link>
+      <pubDate>Tue, 17 Dec 2013 22:27:00 CET</pubDate>
+      <category><![CDATA[python]]></category>
+      <guid isPermaLink="false">f2tsBBP6UV3MRGkjokFZPso2HmE=</guid>
+      <description>Python in the wide world week - day 2, Dropbox</description>
+      <content:encoded><![CDATA[<p>Yesterday, at the start of the very first "XXX week", we <a href="/blog/2013/12/16/python-in-the-wide-world-week-day-1-xbmc/">looked at
+XBMC</a>. Today, we
+will look at <a href="https://www.dropbox.com/">Dropbox</a>, a could storage file synchronisation service.</p>
+<h2 id="dropbox"><a href="https://www.dropbox.com/">Dropbox</a></h2>
+<p><a href="https://www.dropbox.com/"><img src="/images/dropbox_logo.png" alt="Dropbox"></a></p>
+<p><a href="https://www.dropbox.com/">Dropbox</a> is a file hosting service that offers simple cloud storage and file
+synchronisation for average users as well as big companies. From a humble start
+in 2008 it grew faster then anyone could have predicted and <a href="http://techcrunch.com/2013/11/13/dropbox-hits-200-million-users-and-announces-new-products-for-businesses/">hit 200M users on
+Nov 13,
+2013</a>.
+Even though it has many competitors like <a href="http://www.google.com/drive/about.html">Google
+Drive</a>, <a href="http://windows.microsoft.com/en-us/skydrive/download">Microsoft
+SkyDrive</a> and
+<a href="https://www.box.com/">Box.net</a> (and many, many others), <a href="https://www.dropbox.com/">Dropbox</a> continues to
+stand at the top of the game.</p>
+<h2 id="where-is-python-used">Where is Python used?</h2>
+<blockquote>
+<p>It would have been virtually impossible to do Dropbox without Python</p>
+<p>-- Rian Hunter, Dropbox Engineer</p>
+</blockquote>
+<p>The better question would be - where isn't it used? More then 99% of both the
+server and client code is written in Python. Using Python allowed the engineers
+to be able to quickly test their ideas, fix any problems and bring frequent
+updates. They were lucky, as many of their Python solutions scaled surprisingly
+well, which meant that "<em>(they) could get to 40M users without having to write
+thousands of lines of C code</em>", as the whole platform was still running only a
+few hundred lines of Python code even when the number of users started reaching
+tens of millions.</p>
+<p>Rian also said that every time they tried to anticipate things or "be clever in
+advance", they failed - it was much easier to just stay on top of the
+architecture as it grew and keep tabs on it, which probably wouldn't be
+possible if they weren't using Python.</p>]]></content:encoded>
+    </item>
     <item>
       <title>Python in the wide world week - day 1, XBMC</title>
       <link>http://www.natan.termitnjak.net/blog/2013/12/16/python-in-the-wide-world-week-day-1-xbmc</link>
