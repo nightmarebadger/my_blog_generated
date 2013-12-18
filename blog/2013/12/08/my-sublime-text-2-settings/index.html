@@ -367,6 +367,12 @@ windows are reopened).</p>
     <!-- This is needed here so we don't get caught 'inside' the code highlighter when building excrements. I know it's not nice, but it's the only way I could make it work right now and even though it's far from perfect, it doesn't break the site -->
     </pre></tr></tbody></thead></table>
     <!-- End code highlighter workaroung -->
+
+    <div id="share-buttons" style="width:100%">
+      <div id="twitter" data-url=http://www.natan.termitnjak.net/blog/2013/12/08/my-sublime-text-2-settings/index.html data-text="Share" data-title="Tweet" class="col-xs-4"></div>
+      <div id="facebook" data-url=http://www.natan.termitnjak.net/blog/2013/12/08/my-sublime-text-2-settings/index.html data-text="Share" data-title="Like" class="col-xs-4"></div>
+      <div id="googleplus" data-url=http://www.natan.termitnjak.net/blog/2013/12/08/my-sublime-text-2-settings/index.html data-text="Share" data-title="+1" class="col-xs-4"></div>
+    </div>
     <p class="well well-sm post-author">
       Written by: Natan Žabkar
     </p>
@@ -491,6 +497,7 @@ windows are reopened).</p>
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/plugins.js"></script>
 <script src="/js/salvattore.min.js"></script>
+<script src="/js/jquery.sharrre.min.js"></script>
 
 <script>
   var toc = $("#toc ol");
@@ -570,6 +577,46 @@ init_mathjax();
 })();
 </script>
 
+
+<script>
+$('#twitter').sharrre({
+  share: {
+    twitter: true
+  },
+  enableHover: false,
+  enableTracking: false,
+  buttons: {
+    twitter: {count: 'vertical'}
+  },
+  click: function(api, options){
+    api.simulateClick();
+    api.openPopup('twitter');
+  }
+});
+$('#facebook').sharrre({
+  share: {
+    facebook: true
+  },
+  enableHover: false,
+  enableTracking: false,
+  click: function(api, options){
+    api.simulateClick();
+    api.openPopup('facebook');
+  }
+});
+$('#googleplus').sharrre({
+  share: {
+    googlePlus: true
+  },
+  enableHover: false,
+  enableTracking: false,
+  click: function(api, options){
+    api.simulateClick();
+    api.openPopup('googlePlus');
+  },
+  urlCurl: '/php/sharrre.php'
+});
+</script>
 
   </body>
 </html>
