@@ -12,10 +12,10 @@
 
 
 
-  <title>NMB's Development Blog</title>
+  <title>NMB's Development Blog: Python in the wide world week - day 4, EVE Online</title>
   <meta name="description" content="Blog with tutorials about Python, web development and various other interesting topics from the world of computers.">
   <meta name="author" content="Natan Žabkar">
-  <meta name="keywords" content="programming, python, natan zabkar, nightmarebadger">
+  <meta name="keywords" content="programming, python, natan zabkar, nightmarebadger, python">
   <meta charset="UTF-8">
   <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/blog/feed" />
   <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="/blog/feed/atom" />
@@ -51,10 +51,10 @@
     <div class="navbar-collapse collapse">
       
       <ul class="nav navbar-nav">
-        <li class="active">
+        <li class="">
           <a href="/"><i class="fa fa-home"></i> Home</a>
         </li>
-        <li class="">
+        <li class="active">
           <a href="/blog"><i class="fa fa-file-o"></i> Blog</a>
         </li>
         <li class="">
@@ -82,22 +82,125 @@
       <div class="row">
         <div class="col-sm-9">
           
-<article class="page_box">
-<h1 id="welcome-to-my-site">Welcome to my site</h1>
-<p>Hello and welcome to my site. For now, it is a simple blog lacking in posts or
-information, but I hope to see it grow into a hub of my tutorials, tips and
-tricks.</p>
-<p>I will try to post various pieces that I find useful or interesting while
-slowly building up a base of full-fledged Python tutorials.</p>
-<p>Now go look around and read a <a href="blog">post or two</a> or <a href="tutorials">learn something from a
-tutorial</a>. And of course, if you find something interesting, feel
-free to comment and/or share!</p>
-<div id="share-buttons" class="row">
-  <div id="twitter" data-text="Share" data-title="Tweet" class="col-xs-4"></div>
-  <div id="facebook" data-text="Share" data-title="Like" class="col-xs-4"></div>
-  <div id="googleplus" data-text="Share" data-title="+1" class="col-xs-4"></div>
-</div>
+
+
+
+
+<article>
+  <div class="blog_post">
+    <header>
+      <div id="python-in-the-wide-world-week-day-4-eve-online"></div>
+      <h1 class="blog_post_title"><a href="/blog/2013/12/19/python-in-the-wide-world-week-day-4-eve-online" rel="bookmark" title="Permanent Link to Python in the wide world week - day 4, EVE Online">Python in the wide world week - day 4, EVE Online</a></h1>
+      <p><small><span class="blog_post_date">December 19, 2013 at 09:16 PM</span> | categories:
+        <span class="blog_post_categories"><a href='/blog/category/python'>python</a></span>
+        | <a href="http://www.natan.termitnjak.net/blog/2013/12/19/python-in-the-wide-world-week-day-4-eve-online#disqus_thread">View Comments</a>
+      </small></p>
+    </header>
+
+    
+  
+    <div id="toc" class="well well-sm">
+      <p class="toctitle centered">
+        Contents
+        <span>
+          [<a data-toggle="collapse" data-parent="#toc" href="#toc-content">show/hide</a>]
+        </span>
+      </p>
+      <ol id="toc-content" class="collapse">
+      </ol>
+    </div>
+  
+
+
+    <div class="post_prose">
+      
+  <h2 id="eve-online"><a href="http://www.eveonline.com/">EVE Online</a></h2>
+<p><a href="http://www.eveonline.com/"><img src="/images/eve_online.jpg" alt="EVE Online"></a></p>
+<h3 id="what-is-eve-online">What is Eve Online?</h3>
+<p><a href="http://www.eveonline.com/">EVE Online</a> is a player-driven persistent world MMORPG set in a science
+fiction space setting. Featuring seemingly infinite customisation on both your
+pilot and your ships and a huge world, it definitely is an unique game.</p>
+<p>What makes it even more special is the fact that EVE Online uses only one
+"shard" - all players live in the same world (as opposed to many popular
+MMORPGS, where players play on different "shards" or servers). It also features
+a very "real" world, in which there is no "right" way to play - you can be a
+mercenary, a miner, a trader, a member of a giant alliance (where you work with
+thousands of other players towards a single goal) ... there are practically no
+game or moral limits (you can sabotage other players, or even <a href="http://massively.joystiq.com/2012/10/28/eve-evolved-top-ten-ganks-scams-heists-and-events/">scam players out
+of their
+money</a>)
+- it's all legitimate and won't have any repercussions from the game developers
+  / GM's, not that that can help you much when half of the player base turns
+  against you.</p>
+<p>For more info, look at the <a href="http://www.eveonline.com/">official site</a> or
+<a href="http://www.eveonline.com/faq/what-is-eve-online/">FAQ</a></p>
+<h3 id="where-is-python-used">Where is Python used?</h3>
+<blockquote>
+<p>Python enabled us to create EVE Online, a massive multiplayer game, in record
+time. The EVE Online server cluster runs over 50,000 simultaneous players in
+a shared space simulation, most of which is created in Python. The
+flexibilities of Python have enabled us to quickly improve the game
+experience based on player feedback</p>
+<p>-- Hilmar Veigar Petursson, CCP Games.</p>
+</blockquote>
+<p>Both the server and client software for <a href="http://www.eveonline.com/">EVE Online</a> are developed in
+<a href="http://stackless.com/">Stackless Python</a>, which allows a large number of
+players to perform tasks without the overhead of a call stack used in the
+standard Python distribution. Going in depth about Stackless Python is out of
+the scope of this blog post (and my current experience), but if you think it
+would interest you, Google around for more info. You might also (or rather)
+look at <a href="http://pypy.org/">PyPy</a> which also supports stackless mode along with
+many other features. Even <a href="https://plus.google.com/105712269316285036558/posts">Christian
+Tismer</a>, the creator of
+Stackless Python feels that "PyPy is much superior to Stackless itself and is
+the way of the future".</p>
+<h3 id="gameplay-example">Gameplay example</h3>
+<p>To tell you the truth, I have no idea how EVE Online plays (except that it
+apparently has many many lasers / disco lights in high-end battles :P), so just
+have a look at a random gameplay video I found on the web.</p>
+<iframe width="560" height="315" src="//www.youtube.com/embed/WERqUb0G6vQ"
+frameborder="0" allowfullscreen></iframe>
+
+    </div>
+    <!-- This is needed here so we don't get caught 'inside' the code highlighter when building excrements. I know it's not nice, but it's the only way I could make it work right now and even though it's far from perfect, it doesn't break the site -->
+    </pre></tr></tbody></thead></table>
+    <!-- End code highlighter workaroung -->
+
+    
+  
+    <div id="share-buttons" class="row">
+      <div id="twitter" data-text="Share" data-title="Tweet" class="col-xs-4"></div>
+      <div id="facebook" data-text="Share" data-title="Like" class="col-xs-4"></div>
+      <div id="googleplus" data-text="Share" data-title="+1" class="col-xs-4"></div>
+    </div>
+  
+
+
+    <p class="well well-sm post-author">
+      Written by: Natan Žabkar
+    </p>
+    
+
+
+      <hr>
+  </div>
 </article>
+
+<script>
+  var toc_selector = "h2, h3, h4";
+</script>
+
+
+
+
+
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_url = "http://www.natan.termitnjak.net/blog/2013/12/19/python-in-the-wide-world-week-day-4-eve-online";
+</script>
+<script type="text/javascript" src="http://disqus.com/forums/natanblogdev/embed.js"></script>
+<noscript><a href="http://natanblogdev.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 
         </div>
         <div class="col-sm-3">
