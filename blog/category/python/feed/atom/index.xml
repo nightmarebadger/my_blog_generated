@@ -7,12 +7,90 @@
   <title type="text">NMB's Development Blog</title>
   <subtitle type="text">Blog with tutorials about Python, web developent and various other interesting topics from the world of computers.</subtitle>
 
-  <updated>2013-12-18T22:34:13Z</updated>
+  <updated>2013-12-19T00:18:31Z</updated>
   <generator uri="http://blogofile.com/">Blogofile</generator>
 
   <link rel="alternate" type="text/html" href="http://www.natan.termitnjak.net//blog" />
   <id>http://www.natan.termitnjak.net//blog/feed/atom/</id>
   <link rel="self" type="application/atom+xml" href="http://www.natan.termitnjak.net//blog/feed/atom/" />
+  <entry>
+    <author>
+      <name></name>
+      <uri>http://www.natan.termitnjak.net//blog</uri>
+    </author>
+    <title type="html"><![CDATA[Python in the wide world week - day 3, Blender]]></title>
+    <link rel="alternate" type="text/html" href="http://www.natan.termitnjak.net/blog/2013/12/18/python-in-the-wide-world-week-day-3-blender" />
+    <id>http://www.natan.termitnjak.net/blog/2013/12/18/python-in-the-wide-world-week-day-3-blender</id>
+    <updated>2013-12-18T23:38:00Z</updated>
+    <published>2013-12-18T23:38:00Z</published>
+    <category scheme="http://www.natan.termitnjak.net//blog" term="python" />
+    <summary type="html"><![CDATA[Python in the wide world week - day 3, Blender]]></summary>
+    <content type="html" xml:base="http://www.natan.termitnjak.net/blog/2013/12/18/python-in-the-wide-world-week-day-3-blender"><![CDATA[<h2 id="blender"><a href="http://www.blender.org/">Blender</a></h2>
+<p><a href="http://www.blender.org/"><img src="/images/blender_logo.png" alt="Blender"></a></p>
+<h3 id="what-is-blender">What is Blender?</h3>
+<p><a href="http://www.blender.org/">Blender</a> is a free and open source 3D animation suite. It supports the
+entirety of the 3D pipeline—modeling, rigging, animation, simulation,
+rendering, compositing and motion tracking, even video editing and game
+creation. Advanced users employ Blender’s API for Python scripting to customize
+the application and write specialized tools; often these are included in
+Blender’s future releases. Blender is well suited to individuals and small
+studios who benefit from its unified pipeline and responsive development
+process. Examples from many Blender-based projects are available in the
+showcase.<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+<p>Even though at the beginning Blender was often criticised as not being up to
+industry standards (especially on it's interface), but since Blender 2.5 was
+released in 2011 with a completely reworked user interface it can easily sit
+beside the major players such as Maya, 3ds Max etc.</p>
+<p>It is also noted as the most all-around solution with the most extensive
+feature set (and keep in mind that Maya and Max are around 3500$ each, so
+that's another plus for Blender).</p>
+<p>Blender has been growing in popularity even in the <a href="http://en.wikipedia.org/wiki/Blender_(software)#Use_in_the_media_industry">media
+industry</a>,
+with more and more bigger projects opting to use it instead of the "standard"
+tools.</p>
+<h3 id="where-is-python-used">Where is Python used?</h3>
+<p>The feature that makes Blender stand out the most is it's Python API, which
+allows anyone to easily create scripts/addons, many of which are <a href="http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts">integrated
+into later
+releases</a>. Since
+I'm totally clueless about anything design-related, I can't tell you which ones
+are good and useful, so I guess Google is your friend here :).</p>
+<p>With Python and the included <code>bge</code> module you can even use Blender to create
+games.</p>
+<h3 id="examples-of-videos">Examples of videos</h3>
+<p>Since Blender is primarily an animation suite, you can find many <a href="http://www.blenderguru.com/27-inspiring-blender-animations-that-will-make-your-jaw-drop/">great Blender animations</a> on the web.</p>
+<p>Every 1-2 years the Blender Foundation announces a new creative project to help
+drive Blender and it's innovation forward. Below you can find it's latest project, the <a href="http://mango.blender.org/">Tears of Steel</a>. Ignore the (imo) so-so acting and (again, imo) not the best story and focus on the animations ;).</p>
+<iframe width="560" height="315" src="//www.youtube.com/embed/OHOpb2fS-cM" frameborder="0" allowfullscreen></iframe>
+
+<p>PS: It even comes in a <a href="http://www.youtube.com/watch?v=oXzYqf_fuw4">Chinese
+version</a>, using their own actors
+but re-using the animations.</p>
+<h3 id="examples-of-games">Examples of games</h3>
+<p>While there are quite some games made in Blender, not many of them achieved
+global recognition. Below is a trailer from <a href="http://deadcyborg.com/index.html">Dead
+Cyborg</a>, a Steam Greenlit free donation based
+oldskool sci-fi adventure game. I've read good things about it, so I'll be sure
+to check it out when I get the chance.</p>
+<iframe width="560" height="315" src="//www.youtube.com/embed/pex1R67yLXA" frameborder="0" allowfullscreen></iframe>
+
+<p>I've also found Mattline1's <a href="http://mattline1.blogspot.co.uk/">blog</a> and
+<a href="http://www.youtube.com/user/Mattline1">videos</a> really nice - lots of nicely
+implemented good ideas, it seems he is very talented. I found his <a href="http://mattline1.blogspot.com/search/label/Sphere%20shooter">Sphere
+shooter</a>
+especially interesting, and I believe it nicely shows off that Blender can
+actually be used for games too.</p>
+<iframe width="560" height="315" src="//www.youtube.com/embed/ieP7uja8UiI" frameborder="0" allowfullscreen></iframe>
+
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p>Taken from <a href="http://www.blender.org/about/">http://www.blender.org/about/</a>&#160;<a href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>]]></content>
+  </entry>
   <entry>
     <author>
       <name></name>
