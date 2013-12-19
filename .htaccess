@@ -1,0 +1,6 @@
+<FilesMatch "\.(mov|mp3|pdf|ipynb)$">
+  ForceType application/octet-stream
+  Header set Content-Disposition attachment
+</FilesMatch>
+
+RedirectMatch 404 \Makefile
