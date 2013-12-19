@@ -3,4 +3,4 @@
   Header set Content-Disposition attachment
 </FilesMatch>
 
-RedirectMatch 404 \Makefile
+RedirectMatch 404 /Makefile
