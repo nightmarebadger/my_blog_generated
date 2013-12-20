@@ -10,10 +10,88 @@
     <title>NMB's Development Blog</title>
     <link>http://www.natan.termitnjak.net//blog</link>
     <description>Blog with tutorials about Python, web development and various other interesting topics from the world of computers.</description>
-    <pubDate>Thu, 19 Dec 2013 20:28:59 GMT</pubDate>
+    <pubDate>Fri, 20 Dec 2013 21:29:39 GMT</pubDate>
     <generator>Blogofile</generator>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
+    <item>
+      <title>Python in the wide world week - day 5, YouTube</title>
+      <link>http://www.natan.termitnjak.net/blog/2013/12/20/python-in-the-wide-world-week-day-5-youtube</link>
+      <pubDate>Fri, 20 Dec 2013 22:18:00 CET</pubDate>
+      <category><![CDATA[python]]></category>
+      <guid isPermaLink="false">Ured9DqdZq7pXIgf0scwxjybdZY=</guid>
+      <description>Python in the wide world week - day 5, YouTube</description>
+      <content:encoded><![CDATA[<p>One of the reasons why I started this series is because I've heard words like
+"<em>Yeah, Python is nice ... but it's so <strong>slow</strong> ... can you actually do
+anything with it?</em>" too many times. And what is the answer? Just look at
+YouTube's success.</p>
+<h2 id="youtube"><a href="http://www.youtube.com/">YouTube</a></h2>
+<p><a href="http://www.youtube.com/"><img src="/images/youtube_logo.jpg" alt="YouTube"></a></p>
+<h3 id="what-is-youtube">What is YouTube?</h3>
+<p>I'm guessing that if you're reading this, you already know what YouTube is :)</p>
+<h3 id="where-is-python-used">Where is Python used?</h3>
+<blockquote>
+<p>Python is fast enough for our site and allows us to produce maintainable
+features in record times, with a minimum of developers</p>
+<p>-- Cuong Do, Software Architect</p>
+</blockquote>
+<p>YouTube uses Python everywhere - from new features, searching / finding videos,
+running the videos etc ... YouTube currently has well over 1 million lines of
+Python code.</p>
+<p>Mike Solomon gave a great talk at PyCon 2012 (below, <strong>skip to the 10 minute
+mark for the beginning of his talk</strong> as the things before aren't really
+interesting. )</p>
+<iframe width="480" height="360" src="//www.youtube.com/embed/G-lGCC4KKok" frameborder="0" allowfullscreen></iframe>
+
+<p>For me, there are two main points to this talk:</p>
+<p><strong><em>Start simple, grow when needed:</em></strong></p>
+<blockquote>
+<p>A scalable system is one that's not in your way, that you're sort of unaware
+of. It's not buzzwords or anything like that, its just about a general
+problem solving ethos ... You need flexibility to solve problems and the
+minute you over specify something, you paint yourself into a corner.</p>
+<p>-- Mike Solomon, PyCon 2012</p>
+</blockquote>
+<p><strong><em>Stay flexible:</em></strong></p>
+<blockquote>
+<p>How YouTube was originally designed had no bearing on what it actually
+became. Does anybody know that YouTube was a dating site? [*laughter from
+audience*] ... If we had designed for that I think we would be having a
+substantially different conversation.</p>
+<p>-- Mike Solomon, PyCon 2012</p>
+</blockquote>
+<p>Let's get one thing out of the way. YouTube is not only big ... it's <em>huge</em>,
+it's <em>colossal</em>, <em>enormous</em>, <em>massive</em>, <em>immense</em>, <em>tremendous</em> and any other
+word you can think of. Let's look at some statistics<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup></p>
+<p><strong>Viewership</strong></p>
+<ul>
+<li>More than 1 billion unique users visit YouTube each month</li>
+<li>Over 6 billion hours of video are watched each month on YouTube—that's
+    almost an hour for every person on Earth, and 50% more than last year</li>
+<li>100 hours of video are uploaded to YouTube every minute</li>
+<li>80% of YouTube traffic comes from outside the US</li>
+<li>YouTube is localized in 61 countries and across 61 languages</li>
+<li>According to Nielsen, YouTube reaches more US adults ages 18-34 than any
+    cable network</li>
+<li>Millions of subscriptions happen each day. The number of people subscribing
+    daily is up more than 3x since last year, and the number of daily
+    subscriptions is up more than 4x since last year</li>
+</ul>
+<p>But still, YouTube manages to work it's way through all that data using
+technologies that are often held in regard as "<em>slow</em>" or "<em>not good enough</em>",
+such as <a href="http://www.python.org/">Python</a>, <a href="http://www.apache.org/">Apache</a>,
+<a href="http://www.mysql.com/">MySQL</a>, ... and the way they do it is explained nicely
+in the video, so it's a great watch for anyone that is interested in any kind
+of development and deployment.</p>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:1">
+<p><a href="http://www.youtube.com/yt/press/statistics.html">http://www.youtube.com/yt/press/statistics.html</a>&#160;<a href="#fnref:1" rev="footnote" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>]]></content:encoded>
+    </item>
     <item>
       <title>Python in the wide world week - day 4, EVE Online</title>
       <link>http://www.natan.termitnjak.net/blog/2013/12/19/python-in-the-wide-world-week-day-4-eve-online</link>
@@ -108,9 +186,14 @@ are good and useful, so I guess Google is your friend here :).</p>
 <p>With Python and the included <code>bge</code> module you can even use Blender to create
 games.</p>
 <h3 id="examples-of-videos">Examples of videos</h3>
-<p>Since Blender is primarily an animation suite, you can find many <a href="http://www.blenderguru.com/27-inspiring-blender-animations-that-will-make-your-jaw-drop/">great Blender animations</a> on the web.</p>
+<p>Since Blender is primarily an animation suite, you can find many <a href="http://www.blenderguru.com/27-inspiring-blender-animations-that-will-make-your-jaw-drop/">great Blender
+animations</a>
+on the web.</p>
 <p>Every 1-2 years the Blender Foundation announces a new creative project to help
-drive Blender and it's innovation forward. Below you can find it's latest project, the <a href="http://mango.blender.org/">Tears of Steel</a>. Ignore the (imo) so-so acting and (again, imo) not the best story and focus on the animations ;).</p>
+drive Blender and it's innovation forward. Below you can find it's latest
+project, the <a href="http://mango.blender.org/">Tears of Steel</a>. Ignore the (imo)
+so-so acting and (again, imo) not the best story and focus on the animations
+;).</p>
 <iframe width="560" height="315" src="//www.youtube.com/embed/OHOpb2fS-cM" frameborder="0" allowfullscreen></iframe>
 
 <p>PS: It even comes in a <a href="http://www.youtube.com/watch?v=oXzYqf_fuw4">Chinese

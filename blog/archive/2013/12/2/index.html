@@ -12,10 +12,10 @@
 
 
 
-  <title>NMB's Development Blog: Battle of the editors - Sublime Text 2</title>
+  <title>NMB's Development Blog</title>
   <meta name="description" content="Blog with tutorials about Python, web development and various other interesting topics from the world of computers.">
   <meta name="author" content="Natan Žabkar">
-  <meta name="keywords" content="programming, python, natan zabkar, nightmarebadger, sublime text, programming tools, editors">
+  <meta name="keywords" content="programming, python, natan zabkar, nightmarebadger">
   <meta charset="UTF-8">
   <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/blog/feed" />
   <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="/blog/feed/atom" />
@@ -54,7 +54,7 @@
         <li class="">
           <a href="/"><i class="fa fa-home"></i> Home</a>
         </li>
-        <li class="active">
+        <li class="">
           <a href="/blog"><i class="fa fa-file-o"></i> Blog</a>
         </li>
         <li class="">
@@ -63,7 +63,7 @@
         <li class="">
           <a href="/tutorials"><i class="fa fa-code"></i> Tutorials</a>
         </li>
-        <li class="">
+        <li class="active">
           <a href="/blog/archive"><i class="fa fa-folder-open"></i> Archives</a>
         </li>
         <li class="">
@@ -84,170 +84,40 @@
           
 
 
+  
+
 
 
 <article>
   <div class="blog_post">
     <header>
-      <div id="battle-of-the-editors-sublime-text-2"></div>
-      <h1 class="blog_post_title"><a href="/blog/2013/11/11/battle-of-the-editors-sublime-text-2" rel="bookmark" title="Permanent Link to Battle of the editors - Sublime Text 2">Battle of the editors - Sublime Text 2</a></h1>
-      <p><small><span class="blog_post_date">November 11, 2013 at 02:30 AM</span> | categories:
+      <div id="my-sublime-text-2-settings"></div>
+      <h1 class="blog_post_title"><a href="/blog/2013/12/08/my-sublime-text-2-settings" rel="bookmark" title="Permanent Link to My Sublime Text 2 settings">My Sublime Text 2 settings</a></h1>
+      <p><small><span class="blog_post_date">December 08, 2013 at 10:00 PM</span> | categories:
         <span class="blog_post_categories"><a href='/blog/category/sublime-text'>sublime text</a>, <a href='/blog/category/programming-tools'>programming tools</a>, <a href='/blog/category/editors'>editors</a></span>
-        | <a href="http://www.natan.termitnjak.net/blog/2013/11/11/battle-of-the-editors-sublime-text-2#disqus_thread">View Comments</a>
+        | <a href="http://www.natan.termitnjak.net/blog/2013/12/08/my-sublime-text-2-settings#disqus_thread">View Comments</a>
       </small></p>
     </header>
 
     
-  
-    <div id="toc" class="well well-sm">
-      <p class="toctitle centered">
-        Contents
-        <span>
-          [<a data-toggle="collapse" data-parent="#toc" href="#toc-content">show/hide</a>]
-        </span>
-      </p>
-      <ol id="toc-content" class="collapse">
-      </ol>
-    </div>
-  
+
 
 
     <div class="post_prose">
       
-  <p>As most of us, I've been struggling with finding the "perfect" editor. For me,
-that meant an editor that could be used for many different languages (C,
-Python, HTML, CSS, JavaScript, ... ), could also be used for "normal" use
-(Markdown, RST, LaTeX), would start up fast and generally be fast enough so I
-didn't have to wait around for it and could optionally be extended with various
-plugins.</p>
-<p>Furthermore, I'd like the "out of the box" functionality to be good, and if at
-all possible, it should be easy to synchronise my settings across devices.
-Working under multiple platforms would also be a plus, since I couldn't count
-on always working on the same operating system.</p>
-<p>In the end, I have found what I have been looking for in Sublime Text 2, which,
-at least for now, is close enough to my "perfect" editor that I do not feel the
-need to test out new editors.</p>
-<p>This editor is light, fast and has a nice &amp; clean design. The out of the box
-functionality is good, and can very easily be extended using packages from the
-Package control. It's also Python based, so writing or changing/adding to
-plugins is a breeze. Additionally, it offers some really useful features I
-haven't seen in other editors I have used.</p>
-<h2 id="editors-i-have-used-in-the-past">Editors I have used in the past</h2>
-<p>The editors I've gone through until now are:</p>
-<ul>
-<li><strong>Vim</strong>: While complex and "strange", it allowed me to do practically
-  everything and could be extended in many ways. Since it's a console editor, I
-  still use it when I don't have access to the GUI and for simple tasks.</li>
-<li><strong>TextPad</strong>: We used this at the university, and while it was OK for what we
-  needed it, it didn't impress me in any way.</li>
-<li><strong>Notepad++</strong>: Same as above.</li>
-<li><strong>Eclipse / Aptana studio</strong>: As I started working with Python more I started
-  looking for an IDE that I could use instead of just using Vim. I've come
-  across Aptana studio (Eclipse for web development and Python). While
-  powerful, it was too big, clunky and slow for my tastes.</li>
-<li><strong>Sublime Text 2</strong>: Another editor I came across at the university - this
-  time a professor used it on his Mac, so I didn't really pay attention to it.
-  Later found out it works in Windows and Linux too so I took it for a test run
-  and haven't looked back since :)</li>
-</ul>
-<h2 id="best-sublime-text-2-features">Best Sublime Text 2 features</h2>
-<p>This is in no way a complete list of Sublime Text 2 features, it is just a list
-of my personal favourite things about Sublime Text.</p>
-<h3 id="goto-anything">Goto anything</h3>
-<p>This here is amazing and I use it all the time. Basically, it allows you to
-press <em>Ctrl+P</em> to search over all the files opened in the editor and (very!)
-quickly search and change between them. It is also not only limited to simple
-file searching and opening, but you can also:</p>
-<ul>
-<li>Start typing to search between the files</li>
-<li>Type "@"" to search between sections of the file (headers, function
-  definitions etc.)</li>
-<li>Type "#"" to search within the file</li>
-<li>Type ":" to go to a line number</li>
-</ul>
-<p>And now the real catch - these options can be combined! So I can fire up the
-Goto anything using the command <em>Ctrl+P</em>, write "edit" to find the
-"battle-of-the-editors.markdown" file, then continue with "edit@got" to find
-this section, or do an "edit#combined" to directly search for "combined", or do
-"edit:50" to go to the 50th line of the file.</p>
-<p>Of course you can still use the normal <em>Ctrl+F</em> to search inside the opened
-file and <em>Ctrl+G</em> for goto line.</p>
-<h3 id="command-palette">Command palette</h3>
-<p>Just press <em>Ctrl+Shift+P</em> to fire up the command palette, which holds
-infrequently used functionality (indentation settings, changing the syntax,
-sorting, ... ). No more trying to remember hundreds of key bindings or
-searching through the menu for every minor thing. As above, this is dynamically
-filtered on each keystroke and is very fast.</p>
-<h3 id="multiple-selection">Multiple selection</h3>
-<p>Press <em>Ctrl+D</em> to select the next occurrence of the selected word. Once you
-have all of them selected, you can simply change them in one go (useful for
-changing a variable name etc.).</p>
-<p>An even more impressive feature, and one that you find yourself using way more
-then you thought you would, is the command <em>Ctrl+Shift+L</em>, which splits the
-selection into lines. Let's say you want to convert a list of student names
-from a .txt file with each student in it's line to an actual Python list. To do
-this, you need to add the opening and closing brackets and quotation marks
-around each one. Using the above command, it is really simple - just select
-everything (<em>Ctrl+A</em>), split selection into lines (<em>Ctrl+Shift+L</em>)), press
-<em>Home</em> to get to the beginning of each line and add the quotation mark, press
-<em>End</em> to go to the end of each line and add a quotation mark and a comma. All
-that remains is to add the brackets at the beginning and end. Of course, if you
-wanted them all to be in a single line, you could just press <em>Delete</em> after
-adding the comma.</p>
-<p>Believe me, once you get used to doing things this way, you will wonder how you
-ever managed to make do without it.</p>
-<h3 id="hard-line-wrap">Hard line wrap</h3>
-<p>This is a feature I didn't at all until I started writing some more stuff in
-Markdown, as I wrap my code by hand. Do you know that feeling when you write a
-big paragraph and everything is nicely wrapped at the 80 char limit ... until
-you see you forgot to write a word or two that is - you add the words at the
-start somewhere, and now the whole paragraph is wrapped wrong. Do you want to
-go through the whole thing again by hand and fix it so it's wrapped nicely? I
-sure don't.</p>
-<p>And that is exactly the reason why I started using the hard line wrap
-(<em>Alt+Q</em>), which does the work for you. If you ever add or delete a word
-somewhere in the paragraph, just press <em>Alt+Q</em> and it's done.</p>
-<p>To make sure everything works fine even in markdown lists, code comments etc. I
-recommend installing the <a href="https://github.com/ehuss/Sublime-Wrap-Plus">Sublime Wrap
-Plus</a> package (read below how to
-install packages easily).</p>
-<h3 id="spell-check">Spell check</h3>
-<p>Integrated spell checker to use when writing LaTeX, Markdown, RST etc. It uses
-LibreOffice dictionaries so you can download the language you want. Enable it
-with <em>F6</em>.</p>
-<h3 id="moving-selected-lines-up-or-down">Moving selected lines up or down</h3>
-<p>Select a few lines of your text, hold down <em>Ctrl+Shift</em> and press up or down.
-The selection will move up or down according to your commands, "pushing" the
-other lines above or below it (depending on which way you're going of course).
-A simple and fast way of moving some code around, plus it looks like magic to
-anyone looking over your shoulder :).</p>
-<h3 id="sort-lines-and-removing-duplicate-lines">Sort lines and removing duplicate lines</h3>
-<p>Sublime Text 2 comes with an integrated command to sort lines (<em>F9</em> or open up
-the command palette and find it there). Those pesky imports at the top of each
-file that you want to sort alphabetically? Well, now you can do it, quick and
-easy.</p>
-<p>Another great feature can be found under <em>Edit &gt; Permute Lines &gt; Unique</em>, which
-gets rid of the duplicates.</p>
-<p>Using a combination of those commands together with the
-<a href="https://github.com/amisarca/Sublime-Text-2-Table-Cleaner">TableCleaner</a> you
-can make data gotten from logs, debugs etc. presentable and readable very
-quickly and easily.</p>
-<h3 id="package-control"><a href="https://sublime.wbond.net/">Package control</a></h3>
-<p>Leaving the best for last, this is the heart and soul of Sublime Text 2 for
-me. It is a great and easy way to install and manage your packages.</p>
-<p>Basically it allows you to download packages through the Command palette
-(<em>Ctrl+Shift+P</em>) with the "Package control: Install Package" command, which
-looks on the web to find the list of all packages with their descriptions that
-can be searched as all other commands in the Command palette can.</p>
-<p>Once you find the package you are looking for, just press enter to quickly and
-easily install it and add it to your packages, which will automatically update
-the packages when a new version is released.</p>
-<p>Each package is also neatly organised, and comes with it's own commands
-automatically added to the Command palette and it's own default and user
-settings.</p>
-<h2 id="personal-settings">Personal settings</h2>
-<p>A blog post with my personal settings, the packages I use and how I keep
-everything synchronised between machines will follow soon.</p>
+  <p>In this post I will go through the core addons I use (I might use some more
+here and there but these are the ones I find the most useful).</p>
+<h2 id="addons-i-use">Addons I use</h2>
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Addon name and link</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+  
 
     </div>
     <!-- This is needed here so we don't get caught 'inside' the code highlighter when building excrements. I know it's not nice, but it's the only way I could make it work right now and even though it's far from perfect, it doesn't break the site -->
@@ -255,20 +125,16 @@ everything synchronised between machines will follow soon.</p>
     <!-- End code highlighter workaroung -->
 
     
-  
-    <div id="share-buttons" class="row">
-      <div id="twitter" data-text="Share" data-title="Tweet" class="col-xs-4"></div>
-      <div id="facebook" data-text="Share" data-title="Like" class="col-xs-4"></div>
-      <div id="googleplus" data-text="Share" data-title="+1" class="col-xs-4"></div>
-    </div>
-  
+
 
 
     <p class="well well-sm post-author">
       Written by: Natan Žabkar
     </p>
     
-
+  <br><p class="well well-sm post-author">
+    This is an excerpt. To see the full post, please click on the title.
+  </p>
 
       <hr>
   </div>
@@ -283,12 +149,11 @@ everything synchronised between machines will follow soon.</p>
 
 
 
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-  var disqus_url = "http://www.natan.termitnjak.net/blog/2013/11/11/battle-of-the-editors-sublime-text-2";
-</script>
-<script type="text/javascript" src="http://disqus.com/forums/natanblogdev/embed.js"></script>
-<noscript><a href="http://natanblogdev.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  <div class="after_post"><a href="http://www.natan.termitnjak.net/blog/2013/12/08/my-sublime-text-2-settings#disqus_thread">Read and Post Comments</a></div>
+  <hr class="interblog" />
+ <a href="../1">« Previous Page</a>
+
+
 
         </div>
         <div class="col-sm-3">
