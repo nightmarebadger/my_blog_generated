@@ -12,10 +12,10 @@
 
 
 
-  <title>NMB's Development Blog: Python in the wide world week - day 2, Dropbox</title>
+  <title>NMB's Development Blog</title>
   <meta name="description" content="Blog with tutorials about Python, web development and various other interesting topics from the world of computers.">
   <meta name="author" content="Natan Žabkar">
-  <meta name="keywords" content="programming, python, natan zabkar, nightmarebadger, python">
+  <meta name="keywords" content="programming, python, natan zabkar, nightmarebadger">
   <meta charset="UTF-8">
   <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/blog/feed" />
   <link rel="alternate" type="application/atom+xml" title="Atom 1.0" href="/blog/feed/atom" />
@@ -54,10 +54,10 @@
         <li class="">
           <a href="/"><i class="fa fa-home"></i> Home</a>
         </li>
-        <li class="active">
+        <li class="">
           <a href="/blog"><i class="fa fa-file-o"></i> Blog</a>
         </li>
-        <li class="">
+        <li class="active">
           <a href="/blog/category"><i class="fa fa-files-o"></i> Categories</a>
         </li>
         <li class="">
@@ -84,68 +84,39 @@
           
 
 
+  
+
 
 
 <article>
   <div class="blog_post">
     <header>
-      <div id="python-in-the-wide-world-week-day-2-dropbox"></div>
-      <h1 class="blog_post_title"><a href="/blog/2013/12/17/python-in-the-wide-world-week-day-2-dropbox" rel="bookmark" title="Permanent Link to Python in the wide world week - day 2, Dropbox">Python in the wide world week - day 2, Dropbox</a></h1>
-      <p><small><span class="blog_post_date">December 17, 2013 at 10:27 PM</span> | categories:
+      <div id="python-in-the-wide-world-week-day-1-xbmc"></div>
+      <h1 class="blog_post_title"><a href="/blog/2013/12/16/python-in-the-wide-world-week-day-1-xbmc" rel="bookmark" title="Permanent Link to Python in the wide world week - day 1, XBMC">Python in the wide world week - day 1, XBMC</a></h1>
+      <p><small><span class="blog_post_date">December 16, 2013 at 10:20 PM</span> | categories:
         <span class="blog_post_categories"><a href='/blog/category/python'>python</a></span>
-        | <a href="http://www.natan.termitnjak.net/blog/2013/12/17/python-in-the-wide-world-week-day-2-dropbox#disqus_thread">View Comments</a>
+        | <a href="http://www.natan.termitnjak.net/blog/2013/12/16/python-in-the-wide-world-week-day-1-xbmc#disqus_thread">View Comments</a>
       </small></p>
     </header>
 
     
-  
-    <div id="toc" class="well well-sm">
-      <p class="toctitle centered">
-        Contents
-        <span>
-          [<a data-toggle="collapse" data-parent="#toc" href="#toc-content">show/hide</a>]
-        </span>
-      </p>
-      <ol id="toc-content" class="collapse">
-      </ol>
-    </div>
-  
+
 
 
     <div class="post_prose">
       
-  <p>Yesterday, at the start of the very first "XXX week", we <a href="/blog/2013/12/16/python-in-the-wide-world-week-day-1-xbmc/">looked at
-XBMC</a>. Today, we
-will look at <a href="https://www.dropbox.com/">Dropbox</a>, a could storage file synchronisation service.</p>
-<h2 id="dropbox"><a href="https://www.dropbox.com/">Dropbox</a></h2>
-<p><a href="https://www.dropbox.com/"><img src="/images/dropbox_logo.png" alt="Dropbox"></a></p>
-<p><a href="https://www.dropbox.com/">Dropbox</a> is a file hosting service that offers simple cloud storage and file
-synchronisation for average users as well as big companies. From a humble start
-in 2008 it grew faster then anyone could have predicted and <a href="http://techcrunch.com/2013/11/13/dropbox-hits-200-million-users-and-announces-new-products-for-businesses/">hit 200M users on
-Nov 13,
-2013</a>.
-Even though it has many competitors like <a href="http://www.google.com/drive/about.html">Google
-Drive</a>, <a href="http://windows.microsoft.com/en-us/skydrive/download">Microsoft
-SkyDrive</a> and
-<a href="https://www.box.com/">Box.net</a> (and many, many others), <a href="https://www.dropbox.com/">Dropbox</a> continues to
-stand at the top of the game.</p>
-<h2 id="where-is-python-used">Where is Python used?</h2>
-<blockquote>
-<p>It would have been virtually impossible to do Dropbox without Python</p>
-<p>-- Rian Hunter, Dropbox Engineer</p>
-</blockquote>
-<p>The better question would be - where isn't it used? More then 99% of both the
-server and client code is written in Python. Using Python allowed the engineers
-to be able to quickly test their ideas, fix any problems and bring frequent
-updates. They were lucky, as many of their Python solutions scaled surprisingly
-well, which meant that "<em>(they) could get to 40M users without having to write
-thousands of lines of C code</em>", as the whole platform was still running only a
-few hundred lines of Python code even when the number of users started reaching
-tens of millions.</p>
-<p>Rian also said that every time they tried to anticipate things or "be clever in
-advance", they failed - it was much easier to just stay on top of the
-architecture as it grew and keep tabs on it, which probably wouldn't be
-possible if they weren't using Python.</p>
+  <p>In an effort to actually post something here, I have decided to do a series of
+"XXX week" posts. Starting off with a "Python in the wide world week", I'll be
+exploring some interesting places where Python is used in the real world.</p>
+<h2 id="xbmc"><a href="http://xbmc.org/">XBMC</a></h2>
+<p><a href="http://xbmc.org/about/"><img src="/images/xbmc_about.jpg" alt="XBMC"></a></p>
+<h3 id="what-is-xbmc">What is XBMC?</h3>
+<p><a href="http://xbmc.org/">XBMC</a> is a free and <a href="https://github.com/xbmc/xbmc">open source</a> media player
+developed by the <a href="http://xbmc.org/about/xbmc-foundation/">XBMC foundation</a>.
+While it was originally created as a media center for the <a href="http://en.wikipedia.org/wiki/Xbox">original Xbox gaming
+console</a> (hence the name <strong>XB</strong>ox <strong>M</strong>edia
+<strong>C</strong>enter), it is now natively available on Windows, various Linux
+distributions, Mac OSX, Android, Raspberry Pi, iOS, Apple TV
 
     </div>
     <!-- This is needed here so we don't get caught 'inside' the code highlighter when building excrements. I know it's not nice, but it's the only way I could make it work right now and even though it's far from perfect, it doesn't break the site -->
@@ -153,20 +124,16 @@ possible if they weren't using Python.</p>
     <!-- End code highlighter workaroung -->
 
     
-  
-    <div id="share-buttons" class="row">
-      <div id="twitter" data-text="Share" data-title="Tweet" class="col-xs-4"></div>
-      <div id="facebook" data-text="Share" data-title="Like" class="col-xs-4"></div>
-      <div id="googleplus" data-text="Share" data-title="+1" class="col-xs-4"></div>
-    </div>
-  
+
 
 
     <p class="well well-sm post-author">
       Written by: Natan Žabkar
     </p>
     
-
+  <br><p class="well well-sm post-author">
+    This is an excerpt. To see the full post, please click on the title.
+  </p>
 
       <hr>
   </div>
@@ -181,12 +148,11 @@ possible if they weren't using Python.</p>
 
 
 
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-  var disqus_url = "http://www.natan.termitnjak.net/blog/2013/12/17/python-in-the-wide-world-week-day-2-dropbox";
-</script>
-<script type="text/javascript" src="http://disqus.com/forums/natanblogdev/embed.js"></script>
-<noscript><a href="http://natanblogdev.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+  <div class="after_post"><a href="http://www.natan.termitnjak.net/blog/2013/12/16/python-in-the-wide-world-week-day-1-xbmc#disqus_thread">Read and Post Comments</a></div>
+  <hr class="interblog" />
+ <a href="/blog/category/python/1">« Previous Page</a>
+
+
 
         </div>
         <div class="col-sm-3">
