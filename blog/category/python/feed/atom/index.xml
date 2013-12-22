@@ -7,12 +7,63 @@
   <title type="text">NMB's Development Blog</title>
   <subtitle type="text">Blog with tutorials about Python, web development and various other interesting topics from the world of computers.</subtitle>
 
-  <updated>2013-12-22T00:01:06Z</updated>
+  <updated>2013-12-22T20:27:21Z</updated>
   <generator uri="http://blogofile.com/">Blogofile</generator>
 
   <link rel="alternate" type="text/html" href="http://www.natan.termitnjak.net//blog" />
   <id>http://www.natan.termitnjak.net//blog/feed/atom/</id>
   <link rel="self" type="application/atom+xml" href="http://www.natan.termitnjak.net//blog/feed/atom/" />
+  <entry>
+    <author>
+      <name></name>
+      <uri>http://www.natan.termitnjak.net//blog</uri>
+    </author>
+    <title type="html"><![CDATA[Python in the wide world week - day 7, the Web]]></title>
+    <link rel="alternate" type="text/html" href="http://www.natan.termitnjak.net/blog/2013/12/22/python-in-the-wide-world-week-day-7-the-web" />
+    <id>http://www.natan.termitnjak.net/blog/2013/12/22/python-in-the-wide-world-week-day-7-the-web</id>
+    <updated>2013-12-22T21:31:00Z</updated>
+    <published>2013-12-22T21:31:00Z</published>
+    <category scheme="http://www.natan.termitnjak.net//blog" term="python" />
+    <summary type="html"><![CDATA[Python in the wide world week - day 7, the Web]]></summary>
+    <content type="html" xml:base="http://www.natan.termitnjak.net/blog/2013/12/22/python-in-the-wide-world-week-day-7-the-web"><![CDATA[<p>And the first week, in which we explored some places where Python is used in
+the "real world" is coming to an end. As
+<a href="/blog/2013/12/21/python-in-the-wide-world-week-day-6-science/">yesterday</a>, we
+won't look at a specific program or tool, but rather an area where Python is
+used a lot - the web.</p>
+<h2 id="why-would-you-use-python-in-web-development">Why would you use Python in web development?</h2>
+<p>Everything we talked about before this week (the readability, simplicity,
+extensibility etc.), combined with <a href="https://wiki.python.org/moin/WebFrameworks">many web
+frameworks</a> means that you can
+definitely find something suitable for your needs and use it easier then in
+many other languages/frameworks.</p>
+<p>The most known frameworks are probably <a href="http://plone.org/">Plone</a>,
+<a href="https://www.djangoproject.com/">Django</a> and <a href="http://www.pylonsproject.org/">The Pylons
+Project</a>, each of which is used by thousands of
+websites (for partial listings you can look
+<a href="http://plone.org/support/sites">here</a> or <a href="http://www.djangosites.org/">here</a>,
+but those listings only cover a small portion of all websites built from the
+frameworks).</p>
+<p>There are many famous users of the popular Python frameworks, such as
+<a href="http://science.nasa.gov/">NASA</a> and <a href="http://www.fbi.gov/">FBI</a> (Plone),
+<a href="https://bitbucket.org/dashboard/overview">Bitbucket</a>,
+<a href="http://instagram.com/">Instagram</a> and <a href="http://www.theguardian.com/uk">The
+Guardian</a> (Django) and
+<a href="http://www.reddit.com/">reddit</a> (Pylons).</p>
+<p>Even if you do not want to use frameworks, there are loads of different
+Python-based options for you. For instance, this blog uses
+<a href="http://www.blogofile.com/">Blogofile</a>, one of the <a href="http://gistpages.com/2013/08/12/complete_list_of_static_site_generators_for_python">Python static site HTML
+generators</a>,
+to generate static HTML which can be pushed on a server - you can even use
+<a href="http://pages.github.com/">GitHub pages</a> as a free host this way.</p>
+<p>Personally, I've used <a href="http://plone.org/">Plone</a> and
+<a href="http://kotti.pylonsproject.org/">Kotti</a> quite a bit at <a href="http://www.termitnjak.com/">Termitnjak
+d.o.o</a> and I have checked out
+<a href="https://www.djangoproject.com/">Django</a>,
+<a href="http://bottlepy.org/docs/dev/">Bottle</a> and <a href="http://flask.pocoo.org/">Flask</a>.</p>
+<h2 id="end-of-the-week">End of the week</h2>
+<p>Well this is the end of the first week, so congratulations to those who stuck
+with it to the end and hopefully you learned something new :).</p>]]></content>
+  </entry>
   <entry>
     <author>
       <name></name>
