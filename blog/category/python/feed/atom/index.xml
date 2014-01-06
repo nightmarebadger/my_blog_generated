@@ -7,7 +7,7 @@
   <title type="text">NMB's Development Blog</title>
   <subtitle type="text">Blog with tutorials about Python, web development and various other interesting topics from the world of computers.</subtitle>
 
-  <updated>2013-12-22T20:38:48Z</updated>
+  <updated>2014-01-06T03:43:46Z</updated>
   <generator uri="http://blogofile.com/">Blogofile</generator>
 
   <link rel="alternate" type="text/html" href="http://www.natan.termitnjak.net//blog" />
@@ -400,7 +400,7 @@ actually be used for games too.</p>
     <published>2013-12-17T22:27:00Z</published>
     <category scheme="http://www.natan.termitnjak.net//blog" term="python" />
     <summary type="html"><![CDATA[Python in the wide world week - day 2, Dropbox]]></summary>
-    <content type="html" xml:base="http://www.natan.termitnjak.net/blog/2013/12/17/python-in-the-wide-world-week-day-2-dropbox"><![CDATA[<p>Yesterday, at the start of the very first "XXX week", we <a href="/blog/2013/12/16/python-in-the-wide-world-week-day-1-xbmc/">looked at
+    <content type="html" xml:base="http://www.natan.termitnjak.net/blog/2013/12/17/python-in-the-wide-world-week-day-2-dropbox"><![CDATA[<p>Yesterday, at the start of the very first "X week", we <a href="/blog/2013/12/16/python-in-the-wide-world-week-day-1-xbmc/">looked at
 XBMC</a>. Today, we
 will look at <a href="https://www.dropbox.com/">Dropbox</a>, a could storage file synchronisation service.</p>
 <h2 id="dropbox"><a href="https://www.dropbox.com/">Dropbox</a></h2>
@@ -446,7 +446,7 @@ possible if they weren't using Python.</p>]]></content>
     <category scheme="http://www.natan.termitnjak.net//blog" term="python" />
     <summary type="html"><![CDATA[Python in the wide world week - day 1, XBMC]]></summary>
     <content type="html" xml:base="http://www.natan.termitnjak.net/blog/2013/12/16/python-in-the-wide-world-week-day-1-xbmc"><![CDATA[<p>In an effort to actually post something here, I have decided to do a series of
-"XXX week" posts. Starting off with a "Python in the wide world week", I'll be
+"X week" posts. Starting off with a "Python in the wide world week", I'll be
 exploring some interesting places where Python is used in the real world.</p>
 <h2 id="xbmc"><a href="http://xbmc.org/">XBMC</a></h2>
 <p><a href="http://xbmc.org/about/"><img src="/images/xbmc_about.jpg" alt="XBMC"></a></p>

@@ -10,7 +10,7 @@
     <title>NMB's Development Blog</title>
     <link>http://www.natan.termitnjak.net//blog</link>
     <description>Blog with tutorials about Python, web development and various other interesting topics from the world of computers.</description>
-    <pubDate>Sun, 22 Dec 2013 20:38:48 GMT</pubDate>
+    <pubDate>Mon, 06 Jan 2014 03:43:46 GMT</pubDate>
     <generator>Blogofile</generator>
     <sy:updatePeriod>hourly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
@@ -371,7 +371,7 @@ actually be used for games too.</p>
       <category><![CDATA[python]]></category>
       <guid isPermaLink="false">f2tsBBP6UV3MRGkjokFZPso2HmE=</guid>
       <description>Python in the wide world week - day 2, Dropbox</description>
-      <content:encoded><![CDATA[<p>Yesterday, at the start of the very first "XXX week", we <a href="/blog/2013/12/16/python-in-the-wide-world-week-day-1-xbmc/">looked at
+      <content:encoded><![CDATA[<p>Yesterday, at the start of the very first "X week", we <a href="/blog/2013/12/16/python-in-the-wide-world-week-day-1-xbmc/">looked at
 XBMC</a>. Today, we
 will look at <a href="https://www.dropbox.com/">Dropbox</a>, a could storage file synchronisation service.</p>
 <h2 id="dropbox"><a href="https://www.dropbox.com/">Dropbox</a></h2>
@@ -412,7 +412,7 @@ possible if they weren't using Python.</p>]]></content:encoded>
       <guid isPermaLink="false">jiGLspowpETdzcy8s2Ufz66zN2U=</guid>
       <description>Python in the wide world week - day 1, XBMC</description>
       <content:encoded><![CDATA[<p>In an effort to actually post something here, I have decided to do a series of
-"XXX week" posts. Starting off with a "Python in the wide world week", I'll be
+"X week" posts. Starting off with a "Python in the wide world week", I'll be
 exploring some interesting places where Python is used in the real world.</p>
 <h2 id="xbmc"><a href="http://xbmc.org/">XBMC</a></h2>
 <p><a href="http://xbmc.org/about/"><img src="/images/xbmc_about.jpg" alt="XBMC"></a></p>
