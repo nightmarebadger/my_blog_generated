@@ -28,11 +28,44 @@
 
   <link rel="stylesheet" href="/css/bootstrap.min.css" />
   <link rel="stylesheet" href="/css/bootstrap-theme.min.css" />
-  <link rel="stylesheet" href="/css/custom.min.css" />
   <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css" />
   <link rel="stylesheet" href="/css/emoticons/jquery.cssemoticons.min.css" type="text/css"/>
 
   <link href='http://fonts.googleapis.com/css?family=Roboto|Roboto+Slab' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/css/libs/cookiecuttr.css" />
+  <link rel="stylesheet" href="/css/custom.min.css" />
+
+  <script src="/js/jquery-1.10.2.min.js"></script>
+  <script src="/js/libs/jquery.cookie.js"></script>
+  <script src="/js/libs/jquery.cookiecuttr.js"></script>
+
+  <script>
+    $(document).ready(function () {
+      $.cookieCuttr({
+        cookieDeclineButton: true,
+        cookieNotificationLocationBottom: true,
+        cookieDomain: 'natan.termitnjak.net',
+        cookieAnalyticsMessage: 'We use cookies to track visits to our website and for Disqus commenting system. We store no personal details. '
+      });
+    });
+  </script>
+
+  <script>
+    if (jQuery.cookie('cc_cookie_decline') != 'cc_cookie_decline') {
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-26889206-3', 'termitnjak.net');
+
+      // ga('create', 'UA-26889206-3', {
+      //   'cookieDomain': 'none'
+      // });
+      ga('send', 'pageview');
+    }
+  </script>
 
   
 
@@ -398,10 +431,21 @@ windows are reopened).</p>
 
 
 <div id="disqus_thread"></div>
-<script type="text/javascript">
-  var disqus_url = "http://www.natan.termitnjak.net/blog/2013/12/08/my-sublime-text-2-settings";
+
+<script>
+if (jQuery.cookie('cc_cookie_decline') != 'cc_cookie_decline') {
+  document.write(
+    '<script type="text/javascript">' +
+      'var disqus_url = "http://www.natan.termitnjak.net/blog/2013/12/08/my-sublime-text-2-settings";' +
+    '<' + '/script>' +
+    '<script type="text/javascript" src="http://disqus.com/forums/natanblogdev/embed.js"><' + '/script>');
+}
+else {
+  document.write(
+    '<div class="cc-cookies-error">This part of the page requires cookies to run. <br>To continue using this functionality, please <a href="#accept" class="cc-cookie-accept">ACCEPT COOKIES</a> </div>');
+}
 </script>
-<script type="text/javascript" src="http://disqus.com/forums/natanblogdev/embed.js"></script>
+
 <noscript><a href="http://natanblogdev.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
 
         </div>
@@ -499,7 +543,6 @@ windows are reopened).</p>
   })();
 </script>
 
-<script src="/js/jquery-1.10.2.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/plugins.js"></script>
 <script src="/js/salvattore.min.js"></script>
@@ -564,23 +607,20 @@ init_mathjax();
 <script src="js/libs/dd_belatedpng.js"></script>
 <script> DD_belatedPNG.fix('img, .png_bg');</script>
 <![endif]-->
+
 <script>
-    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
-    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g,s)}(document,'script'));
-</script>
-<script>
-(function() {
-    var links = document.getElementsByTagName('a');
-    var query = '?';
-    for(var i = 0; i < links.length; i++) {
-        if(links[i].href.indexOf('#disqus_thread') >= 0) {
-            query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+  if (jQuery.cookie('cc_cookie_decline') != 'cc_cookie_decline') {
+    (function() {
+        var links = document.getElementsByTagName('a');
+        var query = '?';
+        for(var i = 0; i < links.length; i++) {
+            if(links[i].href.indexOf('#disqus_thread') >= 0) {
+                query += 'url' + i + '=' + encodeURIComponent(links[i].href) + '&';
+            }
         }
-    }
-    document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/natanblogdev/get_num_replies.js' + query + '"></' + 'script>');
-})();
+        document.write('<script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/natanblogdev/get_num_replies.js' + query + '"></' + 'script>');
+    })();
+  }
 </script>
 
 

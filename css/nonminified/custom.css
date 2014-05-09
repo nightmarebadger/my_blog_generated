@@ -374,3 +374,16 @@ td.gsc-clear-button {
 .centered {
     text-align: center;
 }
+
+/**
+ * COOKIECUTTR FIXES
+ */
+
+.cc-cookies {
+    width: 100%;
+}
+
+.cc-cookies-error {
+    float: none;
+    width: 100%;
+}
